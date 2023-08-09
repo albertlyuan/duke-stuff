@@ -1,0 +1,20 @@
+{
+  "comment:": "This game json shows the flexibility of our program. With the other demo files included,we can change the board dimension, the way to win the game, the pieces, the way pieces move, and the initial locations of the pieces.",
+  "type": "chess",
+  "board": "square",
+  "boardSize": "5x8",
+  "time": 5,
+  "timeIncrement": 5,
+  "boardColors": [
+    "#f3dab0",
+    "#bb885b"
+  ],
+  "players": [
+    "w",
+    "b"
+  ],
+  "powerups": "data/chess/powerups/noPowerups.json",
+  "rules": "data/chess/rules/demoRules.json",
+  "style": "companion",
+  "csv": "data/chess/locations/demoLocations.csv"
+}

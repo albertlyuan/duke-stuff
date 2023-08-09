@@ -1,0 +1,31 @@
+.root {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Courier New";
+    -fx-base: linen;
+    -fx-background: mistyrose;
+}
+
+.button {
+    -fx-text-fill: ghostwhite;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-size: 8pt;
+    -fx-wrap-text: false;
+    -fx-background-color: darkslateblue;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-padding: 8;
+}
+
+.label {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: darkslateblue;
+    -fx-opacity: 0.6;
+}
+
+.text-field {
+    -fx-font-size: 14pt;
+    -fx-font-family: "Segoe UI Semibold";
+}
+
+.

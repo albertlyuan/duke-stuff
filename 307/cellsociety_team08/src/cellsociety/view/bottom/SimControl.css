@@ -1,0 +1,11 @@
+.root {
+  -fx-alignment: center;
+}
+
+.buttons {
+  -fx-alignment: center;
+}
+
+.speedSlider {
+  -fx-alignment: center;
+}

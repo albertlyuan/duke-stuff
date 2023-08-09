@@ -1,0 +1,10 @@
+put bDuck.json in data/chess/pieces
+put bDuck.png in src/images/companion
+put demoGame.json in data/chess
+put demoLocations.csv in data/chess/locations
+put demoRules.json in data/chess/rules
+put noPowerups.json in data/chess/powerups
+
+Since we only defined bDuck (black duck) you can only
+make b_Duck in the csv. If you want to have white ducks,
+you need to create a file called wDuck.json in data/chess/pieces.

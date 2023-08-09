@@ -1,0 +1,19 @@
+{
+  "moves": {
+    "TranslationMove": [
+      "1, 0,take,limited"
+    ],
+    "TeleportMove": [
+      "1, 0, takes, limited",
+      "3, 0, takes, limited",
+      "3, 1, takes, limited",
+      "3, 2, takes, limited",
+      "3, 3, takes, limited",
+      "3, 4, takes, limited",
+      "3, 5, takes, limited",
+      "3, 6, takes, limited",
+      "3, 7, takes, limited"
+    ]
+  },
+  "value": 18
+}
