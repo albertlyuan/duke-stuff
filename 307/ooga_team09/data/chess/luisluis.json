@@ -1,0 +1,19 @@
+{
+  "boardSize": "8x8",
+  "players": [
+    "w",
+    "b"
+  ],
+  "csv": "/Users/luispereda/Documents/CS 307/Projects/ooga_team09/data/chess/luisluis.csv",
+  "rules": "data/chess/rules/default.json",
+  "style": "companion",
+  "powerups": "data/chess/powerups/noPowerups.json",
+  "type": "chess",
+  "boardColors": [
+    "#f3dab0",
+    "#bb885b"
+  ],
+  "time": 10,
+  "timeIncrement": 5,
+  "board": "square"
+}

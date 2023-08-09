@@ -1,0 +1,11 @@
+{
+  "moves": {
+    "TranslationMove": [
+      "1, -1, takes, unlimited",
+      "1, 1, takes, unlimited",
+      "-1, -1, takes, unlimited",
+      "-1, 1, takes, unlimited"
+    ]
+  },
+  "value": 3
+}

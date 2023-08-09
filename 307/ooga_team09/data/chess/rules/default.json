@@ -1,0 +1,12 @@
+{
+  "endCon1": {
+    "ruleType": "Checkmate",
+    "pieceType": [
+      "K"
+    ]
+  },
+  "endCon2": {
+    "ruleType": "Timer",
+    "pieceType": []
+  }
+}

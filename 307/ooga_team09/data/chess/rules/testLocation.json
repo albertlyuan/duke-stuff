@@ -1,0 +1,19 @@
+{
+  "endCon1": {
+    "ruleType": "Location",
+    "pieceType": [
+      "P",
+      "P"
+    ],
+    "location": [
+      "1,0",
+      "2,0"
+    ]
+  },
+  "endCon2": {
+    "ruleType": "Checkmate",
+    "pieceType": [
+      "K"
+    ]
+  }
+}
