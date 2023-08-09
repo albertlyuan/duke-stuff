@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Set up autograder files
+cp /autograder/submission/exploit* /autograder/source/
+cd /autograder/source
+
+python3 run_tests.py < ../submission_metadata.json

@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user inr2@duke.edu

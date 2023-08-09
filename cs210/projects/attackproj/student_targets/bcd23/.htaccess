@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user bcd23@duke.edu

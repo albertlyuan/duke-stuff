@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user tnc23@duke.edu

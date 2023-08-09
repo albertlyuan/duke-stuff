@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user ipm5@duke.edu

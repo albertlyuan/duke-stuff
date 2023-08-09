@@ -1,0 +1,4 @@
+This is a difficult assignment.
+2 3 5 10
+k 639 3
+4 932

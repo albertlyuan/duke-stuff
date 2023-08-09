@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user vbd9@duke.edu

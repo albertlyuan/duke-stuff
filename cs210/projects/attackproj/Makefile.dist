@@ -1,0 +1,31 @@
+all: handout autograder
+.PHONY: all handout autograder
+
+LABDIR = `basename $(CURDIR)`_handout
+
+FILES = README.md hex2raw
+
+#generate the lab for student distribution in subdir handout
+handout:
+	rm -rf $(LABDIR)
+	mkdir $(LABDIR)
+	cp  $(FILES) $(LABDIR)
+	touch $(LABDIR)/exploit1.txt
+	touch $(LABDIR)/exploit2.txt
+	touch $(LABDIR)/reflection.txt	
+
+autograder:
+	cp -r autograder autograder_wk
+	rm -rf autograder.zip
+	cp roaster.csv autograder_wk/
+	cp -r targets autograder_wk/
+	zip -r autograder.zip autograder_wk
+	rm -rf autograder_wk
+
+
+
+clean:
+	make -k clean
+	rm -rf $(LABDIR)
+	(cd autograder; make clean)
+	

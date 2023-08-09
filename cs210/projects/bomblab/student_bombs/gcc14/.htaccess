@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user gcc14@duke.edu

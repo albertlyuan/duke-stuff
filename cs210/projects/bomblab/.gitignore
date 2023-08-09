@@ -1,0 +1,6 @@
+src/bomb
+src/bomb-quiet
+src/bomb-solve
+src/phases.c
+src/solution.txt
+*.o

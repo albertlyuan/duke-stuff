@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user ng170@duke.edu

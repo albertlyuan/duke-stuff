@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user chm32@duke.edu

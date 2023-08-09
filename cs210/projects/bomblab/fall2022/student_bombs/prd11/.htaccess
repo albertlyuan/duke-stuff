@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user prd11@duke.edu

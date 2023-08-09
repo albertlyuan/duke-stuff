@@ -1,0 +1,4 @@
+This is a difficult assignment.
+3 3 4 5
+721 4
+5 12

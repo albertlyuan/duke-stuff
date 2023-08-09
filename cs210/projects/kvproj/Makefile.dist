@@ -1,0 +1,34 @@
+all: handout autograder
+.PHONY: all handout autograder
+
+LABDIR = `basename $(CURDIR)`_handout
+
+FILES = kv_store.c                    \
+				kv_test.c                     \
+				kv_store.h                    \
+				.kv_store_util.o              \
+				reflection.txt                \
+				../autograder_files/hwtest.py \
+				README.md                     \
+				Makefile                      \
+				.gitignore
+
+# Generate the project for student distribution in subdirectory `handout`.
+handout:
+	make -k clean
+	gcc -O3 -fvisibility=hidden -s -c kv_store_util.c -o .kv_store_util.o
+	rm -rf $(LABDIR)
+	mkdir $(LABDIR)
+	cp Makefile README.md $(FILES) $(LABDIR)
+	cp -r tests $(LABDIR)
+	unifdef -DSTUDENT -o $(LABDIR)/kv_store.c kv_store.c; test "$$?" -eq 1
+	
+# Generate the autograder .zip file in subdirectory `autograder`.
+autograder:
+	(cd autograder; make)
+	
+clean:
+	make -k clean
+	rm -rf $(LABDIR)
+	rm -f .kv_store_util.o
+	(cd autograder; make clean)

@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user mp424@duke.edu

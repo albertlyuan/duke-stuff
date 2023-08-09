@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user qn5@duke.edu

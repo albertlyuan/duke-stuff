@@ -1,0 +1,1521 @@
+roaster.csv
+Make targets for  Lola" ﻿"Adewale, netid: dia7, email damilola.adewale@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/dia7/target1-dia7 target1.c
+/tmp/ccYo9U9y.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/dia7/target2-dia7 target2.c
+/tmp/ccsk8uOJ.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/dia7/target2-dia7 -x t2gdb.in > targets/dia7/gdb.out
+Success! You hacked the program!
+Make targets for  Najib" "Ahmed, netid: naa31, email najib.ahmed@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/naa31/target1-naa31 target1.c
+/tmp/ccCavTrY.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/naa31/target2-naa31 target2.c
+/tmp/ccaN7pl6.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/naa31/target2-naa31 -x t2gdb.in > targets/naa31/gdb.out
+Success! You hacked the program!
+Make targets for  Ceyda" "Alabacak, netid: ca221, email ceyda.alabacak@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/ca221/target1-ca221 target1.c
+/tmp/ccBRl0Yd.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/ca221/target2-ca221 target2.c
+/tmp/ccfPF16k.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/ca221/target2-ca221 -x t2gdb.in > targets/ca221/gdb.out
+Success! You hacked the program!
+Make targets for  Aidan" "Aronhime, netid: aa496, email aidan.aronhime@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/aa496/target1-aa496 target1.c
+/tmp/cc7U7mLy.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/aa496/target2-aa496 target2.c
+/tmp/ccphj5hG.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/aa496/target2-aa496 -x t2gdb.in > targets/aa496/gdb.out
+Success! You hacked the program!
+Make targets for  Sara" "Azimi, netid: sga13, email sara.azimi@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/sga13/target1-sga13 target1.c
+/tmp/ccLKQgrW.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/sga13/target2-sga13 target2.c
+/tmp/ccRKINj3.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/sga13/target2-sga13 -x t2gdb.in > targets/sga13/gdb.out
+Success! You hacked the program!
+Make targets for  Vivaan" "Baid, netid: vb124, email vivaan.baid@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/vb124/target1-vb124 target1.c
+/tmp/ccupEBmb.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/vb124/target2-vb124 target2.c
+/tmp/ccQnUWvi.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/vb124/target2-vb124 -x t2gdb.in > targets/vb124/gdb.out
+Success! You hacked the program!
+Make targets for  Yasa" "Baig, netid: ymb8, email yasa.baig@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/ymb8/target1-ymb8 target1.c
+/tmp/ccQKKJCA.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/ymb8/target2-ymb8 target2.c
+/tmp/ccirwlzH.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/ymb8/target2-ymb8 -x t2gdb.in > targets/ymb8/gdb.out
+Success! You hacked the program!
+Make targets for  Rhys" "Banerjee, netid: urb, email urjit.banerjee@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/urb/target1-urb target1.c
+/tmp/cc87tOwW.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/urb/target2-urb target2.c
+/tmp/cc0jGhn8.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/urb/target2-urb -x t2gdb.in > targets/urb/gdb.out
+Success! You hacked the program!
+Make targets for  Melany" "Barocio, netid: myb7, email melany.barocio@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/myb7/target1-myb7 target1.c
+/tmp/ccfjtNTe.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/myb7/target2-myb7 target2.c
+/tmp/ccbpKg0l.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/myb7/target2-myb7 -x t2gdb.in > targets/myb7/gdb.out
+Success! You hacked the program!
+Make targets for  Naol" "Basaye, netid: nmb55, email naol.basaye@dukekunshan.edu.cn
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/nmb55/target1-nmb55 target1.c
+/tmp/ccFBnSYA.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/nmb55/target2-nmb55 target2.c
+/tmp/ccD3lDWH.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/nmb55/target2-nmb55 -x t2gdb.in > targets/nmb55/gdb.out
+Success! You hacked the program!
+Make targets for  Nick" "Bayer, netid: ncb39, email nick.bayer@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/ncb39/target1-ncb39 target1.c
+/tmp/cc10UDXW.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/ncb39/target2-ncb39 target2.c
+/tmp/cc9GwwR7.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/ncb39/target2-ncb39 -x t2gdb.in > targets/ncb39/gdb.out
+Success! You hacked the program!
+Make targets for  Ella" "Bergner, netid: enb27, email ella.bergner@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/enb27/target1-enb27 target1.c
+/tmp/cc951San.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/enb27/target2-enb27 target2.c
+/tmp/ccSHFbRj.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/enb27/target2-enb27 -x t2gdb.in > targets/enb27/gdb.out
+Success! You hacked the program!
+Make targets for  Fidel" "Bermudez, netid: fab26, email fidel.bermudez@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/fab26/target1-fab26 target1.c
+/tmp/ccs11A2x.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/fab26/target2-fab26 target2.c
+/tmp/cckAc62F.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/fab26/target2-fab26 -x t2gdb.in > targets/fab26/gdb.out
+Success! You hacked the program!
+Make targets for  Hayden" "Black, netid: rhb22, email richard.black@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/rhb22/target1-rhb22 target1.c
+/tmp/ccmzO6aV.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/rhb22/target2-rhb22 target2.c
+/tmp/ccaAasV5.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/rhb22/target2-rhb22 -x t2gdb.in > targets/rhb22/gdb.out
+Success! You hacked the program!
+Make targets for  Soumya" "Bodavula, netid: sb634, email soumya.bodavula@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/sb634/target1-sb634 target1.c
+/tmp/cciaEyQk.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/sb634/target2-sb634 target2.c
+/tmp/ccllEV1k.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/sb634/target2-sb634 -x t2gdb.in > targets/sb634/gdb.out
+Success! You hacked the program!
+Make targets for  Israel" "Briones, netid: ib67, email israel.briones@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/ib67/target1-ib67 target1.c
+/tmp/ccfjUj4y.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/ib67/target2-ib67 target2.c
+/tmp/ccXqK9PJ.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/ib67/target2-ib67 -x t2gdb.in > targets/ib67/gdb.out
+Success! You hacked the program!
+Make targets for  Connor" "Burrill, netid: cab201, email connor.burrill@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/cab201/target1-cab201 target1.c
+/tmp/ccJJxfuY.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/cab201/target2-cab201 target2.c
+/tmp/ccRHaYQ5.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/cab201/target2-cab201 -x t2gdb.in > targets/cab201/gdb.out
+Success! You hacked the program!
+Make targets for  Emily" "Caplan, netid: eic8, email emily.caplan@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/eic8/target1-eic8 target1.c
+/tmp/ccvYB0Do.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/eic8/target2-eic8 target2.c
+/tmp/ccrYwVrv.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/eic8/target2-eic8 -x t2gdb.in > targets/eic8/gdb.out
+Success! You hacked the program!
+Make targets for  Jack" "Casey, netid: jcc133, email jack.casey@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/jcc133/target1-jcc133 target1.c
+/tmp/cc2NzDgC.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/jcc133/target2-jcc133 target2.c
+/tmp/ccor6XxJ.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/jcc133/target2-jcc133 -x t2gdb.in > targets/jcc133/gdb.out
+Success! You hacked the program!
+Make targets for  Khushmeet" "Chandi, netid: kkc26, email khushmeet.chandi@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/kkc26/target1-kkc26 target1.c
+/tmp/ccsiEdW2.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/kkc26/target2-kkc26 target2.c
+/tmp/cce25VJa.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/kkc26/target2-kkc26 -x t2gdb.in > targets/kkc26/gdb.out
+Success! You hacked the program!
+Make targets for  Pranav" "Charvu, netid: pc204, email pranav.charvu@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/pc204/target1-pc204 target1.c
+/tmp/ccm8L3lo.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/pc204/target2-pc204 target2.c
+/tmp/cckKGisv.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/pc204/target2-pc204 -x t2gdb.in > targets/pc204/gdb.out
+Success! You hacked the program!
+Make targets for  Marie" "Cheng, netid: mwc33, email marie.cheng@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/mwc33/target1-mwc33 target1.c
+/tmp/ccj0lxmD.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/mwc33/target2-mwc33 target2.c
+/tmp/ccH5dvfK.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/mwc33/target2-mwc33 -x t2gdb.in > targets/mwc33/gdb.out
+Success! You hacked the program!
+Make targets for  Noam" "Chocron, netid: njc35, email noam.chocron@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/njc35/target1-njc35 target1.c
+/tmp/ccPH4qJ2.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/njc35/target2-njc35 target2.c
+/tmp/ccTkCQ59.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/njc35/target2-njc35 -x t2gdb.in > targets/njc35/gdb.out
+Success! You hacked the program!
+Make targets for  Morgan" "Chumney, netid: mwc34, email morgan.chumney@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/mwc34/target1-mwc34 target1.c
+/tmp/cc9DbqCs.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/mwc34/target2-mwc34 target2.c
+/tmp/ccbXd9Bz.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/mwc34/target2-mwc34 -x t2gdb.in > targets/mwc34/gdb.out
+Success! You hacked the program!
+Make targets for  Charlie" "Clarke, netid: chc39, email charles.clarke@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/chc39/target1-chc39 target1.c
+/tmp/ccua5e4C.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/chc39/target2-chc39 target2.c
+/tmp/ccIPM8ZO.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/chc39/target2-chc39 -x t2gdb.in > targets/chc39/gdb.out
+Success! You hacked the program!
+Make targets for  Tiana" "Clemons, netid: tnc23, email tiana.clemons@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/tnc23/target1-tnc23 target1.c
+/tmp/cckBxXG3.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/tnc23/target2-tnc23 target2.c
+/tmp/ccunls69.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/tnc23/target2-tnc23 -x t2gdb.in > targets/tnc23/gdb.out
+Success! You hacked the program!
+Make targets for  Rebecca" "Combs, netid: rdc47, email rebecca.combs@dukekunshan.edu.cn
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/rdc47/target1-rdc47 target1.c
+/tmp/ccxGOdyp.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/rdc47/target2-rdc47 target2.c
+/tmp/cce2AuJA.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/rdc47/target2-rdc47 -x t2gdb.in > targets/rdc47/gdb.out
+Success! You hacked the program!
+Make targets for  Feng" "Cong, netid: fc84, email feng.cong@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/fc84/target1-fc84 target1.c
+/tmp/ccgYMDFP.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/fc84/target2-fc84 target2.c
+/tmp/ccbcj1AP.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/fc84/target2-fc84 -x t2gdb.in > targets/fc84/gdb.out
+Success! You hacked the program!
+Make targets for  Hebron" "Daniel, netid: had13, email hebron.daniel@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/had13/target1-had13 target1.c
+/tmp/ccNz3NO4.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/had13/target2-had13 target2.c
+/tmp/ccTZIpUb.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/had13/target2-had13 -x t2gdb.in > targets/had13/gdb.out
+Success! You hacked the program!
+Make targets for  Arinton" "Davis, netid: acd42, email arinton.davis@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/acd42/target1-acd42 target1.c
+/tmp/ccxM7Cwq.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/acd42/target2-acd42 target2.c
+/tmp/ccxVUDJx.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/acd42/target2-acd42 -x t2gdb.in > targets/acd42/gdb.out
+Success! You hacked the program!
+Make targets for  Prerana" "Devadhar, netid: prd13, email prerana.devadhar@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/prd13/target1-prd13 target1.c
+/tmp/ccPBFq3Q.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/prd13/target2-prd13 target2.c
+/tmp/ccSebmhM.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/prd13/target2-prd13 -x t2gdb.in > targets/prd13/gdb.out
+Success! You hacked the program!
+Make targets for  Suraj" "Dhulipalla, netid: ssd41, email suraj.dhulipalla@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/ssd41/target1-ssd41 target1.c
+/tmp/cccuWmP4.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/ssd41/target2-ssd41 target2.c
+/tmp/ccU73I8e.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/ssd41/target2-ssd41 -x t2gdb.in > targets/ssd41/gdb.out
+Success! You hacked the program!
+Make targets for  Phillip" "Ding, netid: pcd13, email phillip.ding@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/pcd13/target1-pcd13 target1.c
+/tmp/cchqTNOt.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/pcd13/target2-pcd13 target2.c
+/tmp/ccckjW8A.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/pcd13/target2-pcd13 -x t2gdb.in > targets/pcd13/gdb.out
+Success! You hacked the program!
+Make targets for  Riley" "Dinnell, netid: rkd17, email riley.dinnell@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/rkd17/target1-rkd17 target1.c
+/tmp/ccCG5zDT.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/rkd17/target2-rkd17 target2.c
+/tmp/cc2EY3Y0.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/rkd17/target2-rkd17 -x t2gdb.in > targets/rkd17/gdb.out
+Success! You hacked the program!
+Make targets for  Rose" "DiPietro, netid: rcd41, email rose.dipietro@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/rcd41/target1-rcd41 target1.c
+/tmp/ccL4g7C7.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/rcd41/target2-rcd41 target2.c
+/tmp/cc1WMYJe.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/rcd41/target2-rcd41 -x t2gdb.in > targets/rcd41/gdb.out
+Success! You hacked the program!
+Make targets for  Annie" "Do, netid: vbd9, email vi.do@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/vbd9/target1-vbd9 target1.c
+/tmp/ccZuSa9t.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/vbd9/target2-vbd9 target2.c
+/tmp/ccZU6fxB.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/vbd9/target2-vbd9 -x t2gdb.in > targets/vbd9/gdb.out
+Success! You hacked the program!
+Make targets for  Mohammed" "Elmzoudi, netid: mye, email mohammed.elmzoudi@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/mye/target1-mye target1.c
+/tmp/ccXrymfQ.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/mye/target2-mye target2.c
+/tmp/cclYjvbY.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/mye/target2-mye -x t2gdb.in > targets/mye/gdb.out
+Success! You hacked the program!
+Make targets for  Dese" "Elumaro, netid: ace29, email adesemi.elumaro@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/ace29/target1-ace29 target1.c
+/tmp/ccyGuGl5.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/ace29/target2-ace29 target2.c
+/tmp/ccstwklc.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/ace29/target2-ace29 -x t2gdb.in > targets/ace29/gdb.out
+Success! You hacked the program!
+Make targets for  Brandon" "Fain, netid: btf12, email brandon.fain@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/btf12/target1-btf12 target1.c
+/tmp/ccY4w4Xv.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/btf12/target2-btf12 target2.c
+/tmp/ccUP7oRC.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/btf12/target2-btf12 -x t2gdb.in > targets/btf12/gdb.out
+Success! You hacked the program!
+Make targets for  Jack" "Farley, netid: jpf23, email jack.farley@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/jpf23/target1-jpf23 target1.c
+/tmp/cc2LZbeS.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/jpf23/target2-jpf23 target2.c
+/tmp/cckMQHkZ.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/jpf23/target2-jpf23 -x t2gdb.in > targets/jpf23/gdb.out
+Success! You hacked the program!
+Make targets for  Susan" "Feng, netid: sf282, email susan.feng@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/sf282/target1-sf282 target1.c
+/tmp/ccu2sWV5.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/sf282/target2-sf282 target2.c
+/tmp/ccXMWmNc.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/sf282/target2-sf282 -x t2gdb.in > targets/sf282/gdb.out
+Success! You hacked the program!
+Make targets for  Cole" "FitzGerald, netid: cjf50, email cole.fitzgerald@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/cjf50/target1-cjf50 target1.c
+/tmp/ccn7Ccvw.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/cjf50/target2-cjf50 target2.c
+/tmp/cc7WEvLD.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/cjf50/target2-cjf50 -x t2gdb.in > targets/cjf50/gdb.out
+Success! You hacked the program!
+Make targets for  Megan" "Flanigan, netid: mef56, email megan.flanigan@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/mef56/target1-mef56 target1.c
+/tmp/ccDNj26R.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/mef56/target2-mef56 target2.c
+/tmp/cc7hgefZ.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/mef56/target2-mef56 -x t2gdb.in > targets/mef56/gdb.out
+Success! You hacked the program!
+Make targets for  Jason" "Gerber, netid: jmg126, email jason.gerber@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/jmg126/target1-jmg126 target1.c
+/tmp/cc3Z4Msi.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/jmg126/target2-jmg126 target2.c
+/tmp/ccoHX9Jd.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/jmg126/target2-jmg126 -x t2gdb.in > targets/jmg126/gdb.out
+Success! You hacked the program!
+Make targets for  Ethan" "Goldberg, netid: eag62, email ethan.goldberg@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/eag62/target1-eag62 target1.c
+/tmp/ccCAqo7s.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/eag62/target2-eag62 target2.c
+/tmp/cc27BwSE.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/eag62/target2-eag62 -x t2gdb.in > targets/eag62/gdb.out
+Success! You hacked the program!
+Make targets for  Jordan" "Greene, netid: jcg96, email jordan.greene@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/jcg96/target1-jcg96 target1.c
+/tmp/ccCslzrT.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/jcg96/target2-jcg96 target2.c
+/tmp/ccIV3ZsZ.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/jcg96/target2-jcg96 -x t2gdb.in > targets/jcg96/gdb.out
+Success! You hacked the program!
+Make targets for  Sofia" "Guerrero, netid: sg533, email sofia.guerrero@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/sg533/target1-sg533 target1.c
+/tmp/ccobGTXe.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/sg533/target2-sg533 target2.c
+/tmp/cclJzx0d.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/sg533/target2-sg533 -x t2gdb.in > targets/sg533/gdb.out
+Success! You hacked the program!
+Make targets for  Vivian" "Guo, netid: vsg7, email vivian.s.guo@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/vsg7/target1-vsg7 target1.c
+/tmp/ccwAr9pt.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/vsg7/target2-vsg7 target2.c
+/tmp/cctgcchF.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/vsg7/target2-vsg7 -x t2gdb.in > targets/vsg7/gdb.out
+Success! You hacked the program!
+Make targets for  Kassie" "Hamilton, netid: kmh156, email kassandra.hamilton@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/kmh156/target1-kmh156 target1.c
+/tmp/ccTJloxT.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/kmh156/target2-kmh156 target2.c
+/tmp/ccRALFs1.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/kmh156/target2-kmh156 -x t2gdb.in > targets/kmh156/gdb.out
+Success! You hacked the program!
+Make targets for  Owen" "Hand, netid: ojh7, email owen.hand@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/ojh7/target1-ojh7 target1.c
+/tmp/cc57v33f.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/ojh7/target2-ojh7 target2.c
+/tmp/ccJI6O8m.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/ojh7/target2-ojh7 -x t2gdb.in > targets/ojh7/gdb.out
+Success! You hacked the program!
+Make targets for  Gordon" "He, netid: gh119, email gordon.he@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/gh119/target1-gh119 target1.c
+/tmp/ccu3dwOt.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/gh119/target2-gh119 target2.c
+/tmp/ccwW39GF.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/gh119/target2-gh119 -x t2gdb.in > targets/gh119/gdb.out
+Success! You hacked the program!
+Make targets for  Emi" "Hegarty, netid: emh74, email emi.hegarty@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/emh74/target1-emh74 target1.c
+/tmp/ccQ8lSuU.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/emh74/target2-emh74 target2.c
+/tmp/ccOjE1i2.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/emh74/target2-emh74 -x t2gdb.in > targets/emh74/gdb.out
+Success! You hacked the program!
+Make targets for  John" "Hession, netid: jph55, email john.hession@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/jph55/target1-jph55 target1.c
+/tmp/ccmG5acg.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/jph55/target2-jph55 target2.c
+/tmp/ccY0Kv4r.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/jph55/target2-jph55 -x t2gdb.in > targets/jph55/gdb.out
+Success! You hacked the program!
+Make targets for  Alex" "Hong, netid: ayh13, email alexander.hong@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/ayh13/target1-ayh13 target1.c
+/tmp/ccFIqYYu.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/ayh13/target2-ayh13 target2.c
+/tmp/ccnNzyqG.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/ayh13/target2-ayh13 -x t2gdb.in > targets/ayh13/gdb.out
+Success! You hacked the program!
+Make targets for  Justin" "Huang, netid: jjh87, email justin.huang@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/jjh87/target1-jjh87 target1.c
+/tmp/ccTPrUHV.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/jjh87/target2-jjh87 target2.c
+/tmp/cc7pCyp2.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/jjh87/target2-jjh87 -x t2gdb.in > targets/jjh87/gdb.out
+Success! You hacked the program!
+Make targets for  Kathie" "Huang, netid: kh455, email kathie.huang@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/kh455/target1-kh455 target1.c
+/tmp/ccjrLDZh.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/kh455/target2-kh455 target2.c
+/tmp/ccx5Kw7o.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/kh455/target2-kh455 -x t2gdb.in > targets/kh455/gdb.out
+Success! You hacked the program!
+Make targets for  Carly" "Hubert, netid: clh131, email carly.hubert@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/clh131/target1-clh131 target1.c
+/tmp/ccOA00Rv.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/clh131/target2-clh131 target2.c
+/tmp/ccAeXnZC.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/clh131/target2-clh131 -x t2gdb.in > targets/clh131/gdb.out
+Success! You hacked the program!
+Make targets for  Arielle" "Hutchinson, netid: alh120, email arielle.hutchinson@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/alh120/target1-alh120 target1.c
+/tmp/cc0lFVGV.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/alh120/target2-alh120 target2.c
+/tmp/ccUwBOT1.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/alh120/target2-alh120 -x t2gdb.in > targets/alh120/gdb.out
+Success! You hacked the program!
+Make targets for  Joey" "Ilagan, netid: jai16, email joseph.ilagan@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/jai16/target1-jai16 target1.c
+/tmp/cc8Butoh.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/jai16/target2-jai16 target2.c
+/tmp/ccIDUrit.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/jai16/target2-jai16 -x t2gdb.in > targets/jai16/gdb.out
+Success! You hacked the program!
+Make targets for  Gautam" "Iyer, netid: gvi, email gautam.iyer@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/gvi/target1-gvi target1.c
+/tmp/ccYgHB9G.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/gvi/target2-gvi target2.c
+/tmp/ccN00ybH.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/gvi/target2-gvi -x t2gdb.in > targets/gvi/gdb.out
+Success! You hacked the program!
+Make targets for  Ayush" "Jain, netid: adj51, email ayush.jain@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/adj51/target1-adj51 target1.c
+/tmp/ccWQw3QV.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/adj51/target2-adj51 target2.c
+/tmp/ccr0a1J6.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/adj51/target2-adj51 -x t2gdb.in > targets/adj51/gdb.out
+Success! You hacked the program!
+Make targets for  Alex" "Janiak, netid: avj6, email alexander.janiak@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/avj6/target1-avj6 target1.c
+/tmp/ccXyazrl.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/avj6/target2-avj6 target2.c
+/tmp/cctnk9xs.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/avj6/target2-avj6 -x t2gdb.in > targets/avj6/gdb.out
+Success! You hacked the program!
+Make targets for  Mary" "Jiang, netid: mvj6, email mary.jiang@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/mvj6/target1-mvj6 target1.c
+/tmp/ccXU6fmH.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/mvj6/target2-mvj6 target2.c
+/tmp/cceCefgH.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/mvj6/target2-mvj6 -x t2gdb.in > targets/mvj6/gdb.out
+Success! You hacked the program!
+Make targets for  Jaewon" "Jung, netid: jj312, email jaewon.jung@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/jj312/target1-jj312 target1.c
+/tmp/ccWbZeKZ.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/jj312/target2-jj312 target2.c
+/tmp/cc6xsiU6.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/jj312/target2-jj312 -x t2gdb.in > targets/jj312/gdb.out
+Success! You hacked the program!
+Make targets for  Riya" "Kabra, netid: rgk12, email riya.kabra@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/rgk12/target1-rgk12 target1.c
+/tmp/cccJdTRk.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/rgk12/target2-rgk12 target2.c
+/tmp/ccuJr5Ww.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/rgk12/target2-rgk12 -x t2gdb.in > targets/rgk12/gdb.out
+Success! You hacked the program!
+Make targets for  Hugh" "Kang, netid: hk275, email hugh.kang@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/hk275/target1-hk275 target1.c
+/tmp/ccUbxDTK.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/hk275/target2-hk275 target2.c
+/tmp/ccyFYUAS.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/hk275/target2-hk275 -x t2gdb.in > targets/hk275/gdb.out
+Success! You hacked the program!
+Make targets for  Phillip" "Kang, netid: pdk15, email phillip.kang@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/pdk15/target1-pdk15 target1.c
+/tmp/cc5WR0MZ.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/pdk15/target2-pdk15 target2.c
+/tmp/ccJqmy16.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/pdk15/target2-pdk15 -x t2gdb.in > targets/pdk15/gdb.out
+Success! You hacked the program!
+Make targets for  Esha" "Kapoor, netid: ek208, email esha.kapoor@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/ek208/target1-ek208 target1.c
+/tmp/ccjNC9Ul.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/ek208/target2-ek208 target2.c
+/tmp/ccL1owox.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/ek208/target2-ek208 -x t2gdb.in > targets/ek208/gdb.out
+Success! You hacked the program!
+Make targets for  Anish" "Karpurapu, netid: agk21, email anish.karpurapu@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/agk21/target1-agk21 target1.c
+/tmp/cc5UfPfL.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/agk21/target2-agk21 target2.c
+/tmp/ccx5mg8S.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/agk21/target2-agk21 -x t2gdb.in > targets/agk21/gdb.out
+Success! You hacked the program!
+Make targets for  Carly" "Khazzam, netid: cpk19, email carly.khazzam@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/cpk19/target1-cpk19 target1.c
+/tmp/cci3X7UZ.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/cpk19/target2-cpk19 target2.c
+/tmp/cc2qq286.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/cpk19/target2-cpk19 -x t2gdb.in > targets/cpk19/gdb.out
+Success! You hacked the program!
+Make targets for  Qi Xuan" "Khoo, netid: qk6, email qixuan.khoo@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/qk6/target1-qk6 target1.c
+/tmp/ccaK08Eq.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/qk6/target2-qk6 target2.c
+/tmp/ccirczEx.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/qk6/target2-qk6 -x t2gdb.in > targets/qk6/gdb.out
+Success! You hacked the program!
+Make targets for  Diane" "Kim, netid: dyk3, email diane.y.kim@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/dyk3/target1-dyk3 target1.c
+/tmp/ccuIgasL.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/dyk3/target2-dyk3 target2.c
+/tmp/ccOefDgX.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/dyk3/target2-dyk3 -x t2gdb.in > targets/dyk3/gdb.out
+Success! You hacked the program!
+Make targets for  Ellie" "Kim, netid: ekk15, email ellie.kim@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/ekk15/target1-ekk15 target1.c
+/tmp/ccfeM3U0.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/ekk15/target2-ekk15 target2.c
+/tmp/ccJQZsS7.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/ekk15/target2-ekk15 -x t2gdb.in > targets/ekk15/gdb.out
+Success! You hacked the program!
+Make targets for  Lucy" "Kopin, netid: lbk15, email lucille.kopin@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/lbk15/target1-lbk15 target1.c
+/tmp/cct0HZjr.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/lbk15/target2-lbk15 target2.c
+/tmp/ccbCElOy.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/lbk15/target2-lbk15 -x t2gdb.in > targets/lbk15/gdb.out
+Success! You hacked the program!
+Make targets for  Katie" "Kotler, netid: knk25, email kathryn.kotler@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/knk25/target1-knk25 target1.c
+/tmp/cc5wmK5M.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/knk25/target2-knk25 target2.c
+/tmp/ccbQU3WU.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/knk25/target2-knk25 -x t2gdb.in > targets/knk25/gdb.out
+Success! You hacked the program!
+Make targets for  Ajay" "Krishnamurthy, netid: avk23, email ajay.k@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/avk23/target1-avk23 target1.c
+/tmp/ccvD5cd9.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/avk23/target2-avk23 target2.c
+/tmp/ccgK1Ic9.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/avk23/target2-avk23 -x t2gdb.in > targets/avk23/gdb.out
+Success! You hacked the program!
+Make targets for  Bharat" "Krishnan, netid: bpk12, email bharat.krishnan@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/bpk12/target1-bpk12 target1.c
+/tmp/ccqg9KZn.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/bpk12/target2-bpk12 target2.c
+/tmp/cc6Cf4iv.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/bpk12/target2-bpk12 -x t2gdb.in > targets/bpk12/gdb.out
+Success! You hacked the program!
+Make targets for  Michael" "Kumoluyi, netid: mak129, email michael.kumoluyi@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/mak129/target1-mak129 target1.c
+/tmp/ccwUaVwO.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/mak129/target2-mak129 target2.c
+/tmp/ccmNX5IU.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/mak129/target2-mak129 -x t2gdb.in > targets/mak129/gdb.out
+Success! You hacked the program!
+Make targets for  Elias" "Lai, netid: exl, email elias.lai@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/exl/target1-exl target1.c
+/tmp/ccEqA6ia.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/exl/target2-exl target2.c
+/tmp/ccfS6Ac9.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/exl/target2-exl -x t2gdb.in > targets/exl/gdb.out
+Success! You hacked the program!
+Make targets for  Hannah" "Lawry, netid: hbl8, email hannah.lawry@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/hbl8/target1-hbl8 target1.c
+/tmp/ccZwpwNn.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/hbl8/target2-hbl8 target2.c
+/tmp/ccpVLUEz.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/hbl8/target2-hbl8 -x t2gdb.in > targets/hbl8/gdb.out
+Success! You hacked the program!
+Make targets for  Alvin R." "Lebeck, netid: alvy, email alvy@cs.duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/alvy/target1-alvy target1.c
+/tmp/ccFNen8O.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/alvy/target2-alvy target2.c
+/tmp/ccl1KNUV.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/alvy/target2-alvy -x t2gdb.in > targets/alvy/gdb.out
+Success! You hacked the program!
+Make targets for  Evie" "Lee, netid: esl27, email evie.lee@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/esl27/target1-esl27 target1.c
+/tmp/ccvGQmU9.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/esl27/target2-esl27 target2.c
+/tmp/cc9UUWNl.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/esl27/target2-esl27 -x t2gdb.in > targets/esl27/gdb.out
+Success! You hacked the program!
+Make targets for  Haojin" "Li, netid: hl420, email haojin.li@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/hl420/target1-hl420 target1.c
+/tmp/ccKQffUs.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/hl420/target2-hl420 target2.c
+/tmp/cc42aWtz.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/hl420/target2-hl420 -x t2gdb.in > targets/hl420/gdb.out
+Success! You hacked the program!
+Make targets for  Vincent" "Li, netid: vll8, email vincent.l.li@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/vll8/target1-vll8 target1.c
+/tmp/ccE9cEXR.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/vll8/target2-vll8 target2.c
+/tmp/cc2JoSEZ.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/vll8/target2-vll8 -x t2gdb.in > targets/vll8/gdb.out
+Success! You hacked the program!
+Make targets for  Aram" "Lindroth, netid: atl17, email aram.lindroth@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/atl17/target1-atl17 target1.c
+/tmp/cc0y8hue.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/atl17/target2-atl17 target2.c
+/tmp/cc4OiPwl.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/atl17/target2-atl17 -x t2gdb.in > targets/atl17/gdb.out
+Success! You hacked the program!
+Make targets for  Jeffrey" "Liu, netid: jzl10, email jeffrey.z.liu@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/jzl10/target1-jzl10 target1.c
+/tmp/cc94Xe6r.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/jzl10/target2-jzl10 target2.c
+/tmp/ccrEBV1z.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/jzl10/target2-jzl10 -x t2gdb.in > targets/jzl10/gdb.out
+Success! You hacked the program!
+Make targets for  Joy" "Liu, netid: jl1068, email jiayin.liu@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/jl1068/target1-jl1068 target1.c
+/tmp/cczMGvvS.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/jl1068/target2-jl1068 target2.c
+/tmp/ccdb5jGZ.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/jl1068/target2-jl1068 -x t2gdb.in > targets/jl1068/gdb.out
+Success! You hacked the program!
+Make targets for  Hannah" "Long, netid: hl359, email long.hannah@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/hl359/target1-hl359 target1.c
+/tmp/ccNW5oIe.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/hl359/target2-hl359 target2.c
+/tmp/cc1Q24vm.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/hl359/target2-hl359 -x t2gdb.in > targets/hl359/gdb.out
+Success! You hacked the program!
+Make targets for  Brandon" "Lopez, netid: bdl39, email brandon.d.lopez@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/bdl39/target1-bdl39 target1.c
+/tmp/ccu3PPvt.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/bdl39/target2-bdl39 target2.c
+/tmp/ccayeQyA.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/bdl39/target2-bdl39 -x t2gdb.in > targets/bdl39/gdb.out
+Success! You hacked the program!
+Make targets for  Luke" "Lorentzatos, netid: lfl9, email luke.lorentzatos@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/lfl9/target1-lfl9 target1.c
+/tmp/ccOpYFYP.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/lfl9/target2-lfl9 target2.c
+/tmp/ccOwJYJ0.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/lfl9/target2-lfl9 -x t2gdb.in > targets/lfl9/gdb.out
+Success! You hacked the program!
+Make targets for  Cassie" "Lu, netid: pl164, email peiyi.lu@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/pl164/target1-pl164 target1.c
+/tmp/cc6xth1b.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/pl164/target2-pl164 target2.c
+/tmp/cccnmwDn.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/pl164/target2-pl164 -x t2gdb.in > targets/pl164/gdb.out
+Success! You hacked the program!
+Make targets for  Tiffany" "Ma, netid: tsm40, email tiffany.ma@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/tsm40/target1-tsm40 target1.c
+/tmp/ccCS5JtC.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/tsm40/target2-tsm40 target2.c
+/tmp/cczs1kmC.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/tsm40/target2-tsm40 -x t2gdb.in > targets/tsm40/gdb.out
+Success! You hacked the program!
+Make targets for  Bryce" "McMullin, netid: bwm21, email brycen.mcmullin@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/bwm21/target1-bwm21 target1.c
+/tmp/ccfLhw5Q.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/bwm21/target2-bwm21 target2.c
+/tmp/ccIZRnl1.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/bwm21/target2-bwm21 -x t2gdb.in > targets/bwm21/gdb.out
+Success! You hacked the program!
+Make targets for  Danielle" "Mensah, netid: dm416, email danielle.mensah@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/dm416/target1-dm416 target1.c
+/tmp/cczhZgug.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/dm416/target2-dm416 target2.c
+/tmp/ccZOZpxo.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/dm416/target2-dm416 -x t2gdb.in > targets/dm416/gdb.out
+Success! You hacked the program!
+Make targets for  Victoria" "Midkiff, netid: vlm23, email victoria.midkiff@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/vlm23/target1-vlm23 target1.c
+/tmp/ccFislLC.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/vlm23/target2-vlm23 target2.c
+/tmp/ccOgepAC.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/vlm23/target2-vlm23 -x t2gdb.in > targets/vlm23/gdb.out
+Success! You hacked the program!
+Make targets for  Travis" "Minutoli, netid: tmm99, email travis.minutoli@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/tmm99/target1-tmm99 target1.c
+/tmp/ccCYeFqR.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/tmm99/target2-tmm99 target2.c
+/tmp/ccOrQizY.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/tmm99/target2-tmm99 -x t2gdb.in > targets/tmm99/gdb.out
+Success! You hacked the program!
+Make targets for  Nadeska" "Montalvan, netid: nim5, email nadeska.montalvan@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/nim5/target1-nim5 target1.c
+/tmp/ccEQIWYd.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/nim5/target2-nim5 target2.c
+/tmp/ccupGTHk.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/nim5/target2-nim5 -x t2gdb.in > targets/nim5/gdb.out
+Success! You hacked the program!
+Make targets for  Daniel" "Monyak, netid: dlm94, email daniel.monyak@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/dlm94/target1-dlm94 target1.c
+/tmp/ccIm7rtD.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/dlm94/target2-dlm94 target2.c
+/tmp/ccE2h7vK.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/dlm94/target2-dlm94 -x t2gdb.in > targets/dlm94/gdb.out
+Success! You hacked the program!
+Make targets for  Zaid" "Muqsit, netid: zm73, email zaid.muqsit@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/zm73/target1-zm73 target1.c
+/tmp/ccI8mW6R.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/zm73/target2-zm73 target2.c
+/tmp/cc5gupeZ.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/zm73/target2-zm73 -x t2gdb.in > targets/zm73/gdb.out
+Success! You hacked the program!
+Make targets for  Emily" "Nagamoto, netid: emn17, email emily.nagamoto@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/emn17/target1-emn17 target1.c
+/tmp/ccvmLhFh.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/emn17/target2-emn17 target2.c
+/tmp/ccTBuGxp.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/emn17/target2-emn17 -x t2gdb.in > targets/emn17/gdb.out
+Success! You hacked the program!
+Make targets for  Ahaan" "Nalavadi, netid: asn29, email ahaan.nalavadi@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/asn29/target1-asn29 target1.c
+/tmp/cc19NsfE.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/asn29/target2-asn29 target2.c
+/tmp/ccFSTfkL.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/asn29/target2-asn29 -x t2gdb.in > targets/asn29/gdb.out
+Success! You hacked the program!
+Make targets for  Quan" "Nguyen, netid: qn5, email quan.nguyen@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/qn5/target1-qn5 target1.c
+/tmp/ccu9SAQS.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/qn5/target2-qn5 target2.c
+/tmp/ccySgwSZ.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/qn5/target2-qn5 -x t2gdb.in > targets/qn5/gdb.out
+Success! You hacked the program!
+Make targets for  Joey" "Nolan, netid: hjn7, email howard.nolan@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/hjn7/target1-hjn7 target1.c
+/tmp/ccws9LAi.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/hjn7/target2-hjn7 target2.c
+/tmp/ccqqbMyp.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/hjn7/target2-hjn7 -x t2gdb.in > targets/hjn7/gdb.out
+Success! You hacked the program!
+Make targets for  Matthew" "O'Donnell, netid: mlo19, email matthew.l.odonnell@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/mlo19/target1-mlo19 target1.c
+/tmp/ccW0eXNE.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/mlo19/target2-mlo19 target2.c
+/tmp/ccaulTOL.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/mlo19/target2-mlo19 -x t2gdb.in > targets/mlo19/gdb.out
+Success! You hacked the program!
+Make targets for  Charlie" "Oestreicher, netid: cao25, email charles.oestreicher@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/cao25/target1-cao25 target1.c
+/tmp/cczWAujT.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/cao25/target2-cao25 target2.c
+/tmp/cctHtzv0.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/cao25/target2-cao25 -x t2gdb.in > targets/cao25/gdb.out
+Success! You hacked the program!
+Make targets for  Jennifer" "Ouyang, netid: jjo19, email jennifer.ouyang@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/jjo19/target1-jjo19 target1.c
+/tmp/ccr7233e.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/jjo19/target2-jjo19 target2.c
+/tmp/ccE3xwPq.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/jjo19/target2-jjo19 -x t2gdb.in > targets/jjo19/gdb.out
+Success! You hacked the program!
+Make targets for  Dennis" "Park, netid: dp267, email dennis.park@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/dp267/target1-dp267 target1.c
+/tmp/cctCMEpF.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/dp267/target2-dp267 target2.c
+/tmp/ccrajcmM.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/dp267/target2-dp267 -x t2gdb.in > targets/dp267/gdb.out
+Success! You hacked the program!
+Make targets for  Lauren" "Pehlivanian, netid: lsp27, email lauren.pehlivanian@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/lsp27/target1-lsp27 target1.c
+/tmp/ccTQfwT1.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/lsp27/target2-lsp27 target2.c
+/tmp/cc0dYgC1.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/lsp27/target2-lsp27 -x t2gdb.in > targets/lsp27/gdb.out
+Success! You hacked the program!
+Make targets for  Jonah" "Pilnick, netid: jap132, email jonah.pilnick@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/jap132/target1-jap132 target1.c
+/tmp/ccuKZ5Sf.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/jap132/target2-jap132 target2.c
+/tmp/cc0UEIYm.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/jap132/target2-jap132 -x t2gdb.in > targets/jap132/gdb.out
+Success! You hacked the program!
+Make targets for  Tyee" "Pomerantz, netid: tep17, email tyee.pomerantz@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/tep17/target1-tep17 target1.c
+/tmp/cc40dLEC.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/tep17/target2-tep17 target2.c
+/tmp/ccijefnO.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/tep17/target2-tep17 -x t2gdb.in > targets/tep17/gdb.out
+Success! You hacked the program!
+Make targets for  Bob" "Qian, netid: bsq2, email bob.qian@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/bsq2/target1-bsq2 target1.c
+/tmp/ccOFdRq2.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/bsq2/target2-bsq2 target2.c
+/tmp/cckVuCBa.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/bsq2/target2-bsq2 -x t2gdb.in > targets/bsq2/gdb.out
+Success! You hacked the program!
+Make targets for  Michelle" "Qiu, netid: mq37, email michelle.qiu@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/mq37/target1-mq37 target1.c
+/tmp/ccjL8zWh.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/mq37/target2-mq37 target2.c
+/tmp/cczoWS4o.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/mq37/target2-mq37 -x t2gdb.in > targets/mq37/gdb.out
+Success! You hacked the program!
+Make targets for  Reagan" "Razon, netid: rlr65, email reagan.razon@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/rlr65/target1-rlr65 target1.c
+/tmp/ccn2D7KD.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/rlr65/target2-rlr65 target2.c
+/tmp/ccFpONtK.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/rlr65/target2-rlr65 -x t2gdb.in > targets/rlr65/gdb.out
+Success! You hacked the program!
+Make targets for  Anna" "Rietbrock, netid: aer70, email anna.rietbrock@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/aer70/target1-aer70 target1.c
+/tmp/cc18BI1Z.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/aer70/target2-aer70 target2.c
+/tmp/ccl7x1eb.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/aer70/target2-aer70 -x t2gdb.in > targets/aer70/gdb.out
+Success! You hacked the program!
+Make targets for  Nicole" "Romero Ospina, netid: nr144, email nicole.romero.ospina@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/nr144/target1-nr144 target1.c
+/tmp/ccgZdq4e.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/nr144/target2-nr144 target2.c
+/tmp/ccWNYb6l.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/nr144/target2-nr144 -x t2gdb.in > targets/nr144/gdb.out
+Success! You hacked the program!
+Make targets for  Tallie" "Rosenthal, netid: tar38, email tallie.rosenthal@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/tar38/target1-tar38 target1.c
+/tmp/cca6njuF.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/tar38/target2-tar38 target2.c
+/tmp/ccyBv8uL.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/tar38/target2-tar38 -x t2gdb.in > targets/tar38/gdb.out
+Success! You hacked the program!
+Make targets for  Ben" "Rubin, netid: bdr28, email benjamin.d.rubin@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/bdr28/target1-bdr28 target1.c
+/tmp/ccsbTOO0.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/bdr28/target2-bdr28 target2.c
+/tmp/ccUsQjL7.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/bdr28/target2-bdr28 -x t2gdb.in > targets/bdr28/gdb.out
+Success! You hacked the program!
+Make targets for  Isabella" "Rundell, netid: inr2, email isabella.rundell@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/inr2/target1-inr2 target1.c
+/tmp/ccb9drnf.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/inr2/target2-inr2 target2.c
+/tmp/ccHUKBpm.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/inr2/target2-inr2 -x t2gdb.in > targets/inr2/gdb.out
+Success! You hacked the program!
+Make targets for  Joey" "Scarpa, netid: jcs140, email joseph.scarpa@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/jcs140/target1-jcs140 target1.c
+/tmp/cclhpaGF.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/jcs140/target2-jcs140 target2.c
+/tmp/cc9U3TGM.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/jcs140/target2-jcs140 -x t2gdb.in > targets/jcs140/gdb.out
+Success! You hacked the program!
+Make targets for  Vedarsh" "Shah, netid: vus2, email vedarsh.shah@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/vus2/target1-vus2 target1.c
+/tmp/cclykdt1.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/vus2/target2-vus2 target2.c
+/tmp/ccnpISy8.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/vus2/target2-vus2 -x t2gdb.in > targets/vus2/gdb.out
+Success! You hacked the program!
+Make targets for  Yujia" "Shen, netid: ys340, email yujia.shen@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/ys340/target1-ys340 target1.c
+/tmp/ccN6VIKn.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/ys340/target2-ys340 target2.c
+/tmp/ccU7C2Dn.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/ys340/target2-ys340 -x t2gdb.in > targets/ys340/gdb.out
+Success! You hacked the program!
+Make targets for  Allison" "Shi, netid: as1113, email allison.shi@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/as1113/target1-as1113 target1.c
+/tmp/ccwcRKpC.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/as1113/target2-as1113 target2.c
+/tmp/ccGQHJcO.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/as1113/target2-as1113 -x t2gdb.in > targets/as1113/gdb.out
+Success! You hacked the program!
+Make targets for  AJ" "Smith, netid: ajs160, email amos.smith@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/ajs160/target1-ajs160 target1.c
+/tmp/cc2yDur2.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/ajs160/target2-ajs160 target2.c
+/tmp/cci3DPia.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/ajs160/target2-ajs160 -x t2gdb.in > targets/ajs160/gdb.out
+Success! You hacked the program!
+Make targets for  Benny" "Sun, netid: bys7, email benny.sun@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/bys7/target1-bys7 target1.c
+/tmp/ccGTyX9o.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/bys7/target2-bys7 target2.c
+/tmp/ccafFF4v.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/bys7/target2-bys7 -x t2gdb.in > targets/bys7/gdb.out
+Success! You hacked the program!
+Make targets for  Andrew" "Takais, netid: aat25, email andrew.takais@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/aat25/target1-aat25 target1.c
+/tmp/cc5hjqhD.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/aat25/target2-aat25 target2.c
+/tmp/ccvopphK.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/aat25/target2-aat25 -x t2gdb.in > targets/aat25/gdb.out
+Success! You hacked the program!
+Make targets for  Avery" "Tandon, netid: ajt63, email avery.tandon@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/ajt63/target1-ajt63 target1.c
+/tmp/ccHEE9G3.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/ajt63/target2-ajt63 target2.c
+/tmp/ccZ2fDvb.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/ajt63/target2-ajt63 -x t2gdb.in > targets/ajt63/gdb.out
+Success! You hacked the program!
+Make targets for  Luke" "Thomas, netid: ldt19, email luke.thomas@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/ldt19/target1-ldt19 target1.c
+/tmp/cc7uHMfq.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/ldt19/target2-ldt19 target2.c
+/tmp/ccx6voyw.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/ldt19/target2-ldt19 -x t2gdb.in > targets/ldt19/gdb.out
+Success! You hacked the program!
+Make targets for  Zak" "Tini, netid: zat6, email zachary.tini@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/zat6/target1-zat6 target1.c
+/tmp/ccdiFi0D.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/zat6/target2-zat6 target2.c
+/tmp/cc2bWrYK.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/zat6/target2-zat6 -x t2gdb.in > targets/zat6/gdb.out
+Success! You hacked the program!
+Make targets for  Eric" "Tishler, netid: ert26, email eric.tishler@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/ert26/target1-ert26 target1.c
+/tmp/ccQ8Ngt4.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/ert26/target2-ert26 target2.c
+/tmp/ccm04mIb.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/ert26/target2-ert26 -x t2gdb.in > targets/ert26/gdb.out
+Success! You hacked the program!
+Make targets for  David" "Turner, netid: dbt15, email david.b.turner@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/dbt15/target1-dbt15 target1.c
+/tmp/ccrLFviq.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/dbt15/target2-dbt15 target2.c
+/tmp/cciUw7jx.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/dbt15/target2-dbt15 -x t2gdb.in > targets/dbt15/gdb.out
+Success! You hacked the program!
+Make targets for  Marie Rosine" "Tuyikunde, netid: mut, email marierosine.tuyikunde@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/mut/target1-mut target1.c
+/tmp/cc1LHgLE.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/mut/target2-mut target2.c
+/tmp/ccDKq9IL.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/mut/target2-mut -x t2gdb.in > targets/mut/gdb.out
+Success! You hacked the program!
+Make targets for  Daniel" "Uranga, netid: dsu2, email daniel.uranga@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/dsu2/target1-dsu2 target1.c
+/tmp/ccBMZ854.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/dsu2/target2-dsu2 target2.c
+/tmp/ccTf7Z9b.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/dsu2/target2-dsu2 -x t2gdb.in > targets/dsu2/gdb.out
+Success! You hacked the program!
+Make targets for  Felipe" "Vallejo, netid: jfv5, email juan.vallejo@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/jfv5/target1-jfv5 target1.c
+/tmp/cczWxlsq.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/jfv5/target2-jfv5 target2.c
+/tmp/ccH5muAx.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/jfv5/target2-jfv5 -x t2gdb.in > targets/jfv5/gdb.out
+Success! You hacked the program!
+Make targets for  Yesenia" "Velasco, netid: yv10, email yesenia.velasco@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/yv10/target1-yv10 target1.c
+/tmp/ccThHAjQ.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/yv10/target2-yv10 target2.c
+/tmp/ccygtL8P.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/yv10/target2-yv10 -x t2gdb.in > targets/yv10/gdb.out
+Success! You hacked the program!
+Make targets for  Celia" "Vergara, netid: csv12, email celia.vergara@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/csv12/target1-csv12 target1.c
+/tmp/ccQpS4S4.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/csv12/target2-csv12 target2.c
+/tmp/ccarEp2b.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/csv12/target2-csv12 -x t2gdb.in > targets/csv12/gdb.out
+Success! You hacked the program!
+Make targets for  Sean" "Villoresi, netid: smv22, email sean.villoresi@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/smv22/target1-smv22 target1.c
+/tmp/ccqweqMq.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/smv22/target2-smv22 target2.c
+/tmp/cc2qU1vC.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/smv22/target2-smv22 -x t2gdb.in > targets/smv22/gdb.out
+Success! You hacked the program!
+Make targets for  Eric" "Wang, netid: ecw55, email eric.c.wang@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/ecw55/target1-ecw55 target1.c
+/tmp/ccqm7I7Q.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/ecw55/target2-ecw55 target2.c
+/tmp/ccbSli2Q.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/ecw55/target2-ecw55 -x t2gdb.in > targets/ecw55/gdb.out
+Success! You hacked the program!
+Make targets for  Lihong" "Wang, netid: lw324, email lihong.wang062@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/lw324/target1-lw324 target1.c
+/tmp/cclfNSF5.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/lw324/target2-lw324 target2.c
+/tmp/ccfwh6Oc.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/lw324/target2-lw324 -x t2gdb.in > targets/lw324/gdb.out
+Success! You hacked the program!
+Make targets for  Shirley" "Wang, netid: sw526, email shirley.wang@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/sw526/target1-sw526 target1.c
+/tmp/cc7NVWcv.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/sw526/target2-sw526 target2.c
+/tmp/cc5oElhD.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/sw526/target2-sw526 -x t2gdb.in > targets/sw526/gdb.out
+Success! You hacked the program!
+Make targets for  Sydney" "Wang, netid: slw128, email sydney.l.wang@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/slw128/target1-slw128 target1.c
+/tmp/ccZpTpTR.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/slw128/target2-slw128 target2.c
+/tmp/ccxxhdXY.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/slw128/target2-slw128 -x t2gdb.in > targets/slw128/gdb.out
+Success! You hacked the program!
+Make targets for  Alex" "Whang, netid: amw166, email alexander.whang@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/amw166/target1-amw166 target1.c
+/tmp/ccuS0xL5.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/amw166/target2-amw166 target2.c
+/tmp/ccExE8Nc.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/amw166/target2-amw166 -x t2gdb.in > targets/amw166/gdb.out
+Success! You hacked the program!
+Make targets for  Lisa" "Wills, netid: lkw34, email lisa.wills@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/lkw34/target1-lkw34 target1.c
+/tmp/ccsBa6ew.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/lkw34/target2-lkw34 target2.c
+/tmp/cc2ODaVC.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/lkw34/target2-lkw34 -x t2gdb.in > targets/lkw34/gdb.out
+Success! You hacked the program!
+Make targets for  Shine" "Wu, netid: szw2, email shine.wu@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/szw2/target1-szw2 target1.c
+/tmp/cciqzMOR.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/szw2/target2-szw2 target2.c
+/tmp/ccaPt1KY.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/szw2/target2-szw2 -x t2gdb.in > targets/szw2/gdb.out
+Success! You hacked the program!
+Make targets for  Eric" "Xing, netid: esx2, email eric.xing@duke.edu
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/esx2/target1-esx2 target1.c
+/tmp/cc7PIEw6.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/esx2/target2-esx2 target2.c
+/tmp/ccD7ftrd.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/esx2/target2-esx2 -x t2gdb.in > targets/esx2/gdb.out
+Success! You hacked the program!
+Make targets for  David" "Xu, netid: dx36, email david.xu@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/dx36/target1-dx36 target1.c
+/tmp/cc5c5cRv.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/dx36/target2-dx36 target2.c
+/tmp/ccnUBCZD.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/dx36/target2-dx36 -x t2gdb.in > targets/dx36/gdb.out
+Success! You hacked the program!
+Make targets for  Cynthia" "Yan, netid: cy171, email cynthia.yan@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/cy171/target1-cy171 target1.c
+/tmp/ccBgeilS.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/cy171/target2-cy171 target2.c
+/tmp/ccD9FOgZ.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/cy171/target2-cy171 -x t2gdb.in > targets/cy171/gdb.out
+Success! You hacked the program!
+Make targets for  Zirui" "Yin, netid: zy132, email zirui.yin@duke.edu
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/zy132/target1-zy132 target1.c
+/tmp/cckMFpN6.o: In function `my_bug':
+target1.c:(.text+0xa6): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/zy132/target2-zy132 target2.c
+/tmp/cciuAqQd.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+16
+gdb -nw -q targets/zy132/target2-zy132 -x t2gdb.in > targets/zy132/gdb.out
+Success! You hacked the program!
+Make targets for  Elise" "Zhang, netid: ez37, email elise.zhang@duke.edu
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/ez37/target1-ez37 target1.c
+/tmp/ccgy3P8w.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/ez37/target2-ez37 target2.c
+/tmp/ccqORcgE.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/ez37/target2-ez37 -x t2gdb.in > targets/ez37/gdb.out
+Success! You hacked the program!
+Make targets for  Eric" "Zhang, netid: ez38, email eric.zhang286@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/ez38/target1-ez38 target1.c
+/tmp/ccCrtl6S.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/ez38/target2-ez38 target2.c
+/tmp/ccOX7rYZ.o: In function `my_bug':
+target2.c:(.text+0x69): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/ez38/target2-ez38 -x t2gdb.in > targets/ez38/gdb.out
+Success! You hacked the program!
+Make targets for  Jinxuan" "Zhang, netid: jz332, email jinxuan.zhang@dukekunshan.edu.cn
+gcc -DBUFFER_SIZE=64 -static -fno-stack-protector -Og -o targets/jz332/target1-jz332 target1.c
+/tmp/ccgeuWsj.o: In function `my_bug':
+target1.c:(.text+0xdc): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/jz332/target2-jz332 target2.c
+/tmp/ccJtTsnf.o: In function `my_bug':
+target2.c:(.text+0x45): warning: the `gets' function is dangerous and should not be used.
+64
+gdb -nw -q targets/jz332/target2-jz332 -x t2gdb.in > targets/jz332/gdb.out
+Success! You hacked the program!
+Make targets for  Ryan" "Zhu, netid: rsz6, email ryan.zhu@duke.edu
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/rsz6/target1-rsz6 target1.c
+/tmp/cc5J2d1t.o: In function `my_bug':
+target1.c:(.text+0xca): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=16 -static -fno-stack-protector -Og -o targets/rsz6/target2-rsz6 target2.c
+/tmp/ccDurZJF.o: In function `my_bug':
+target2.c:(.text+0x33): warning: the `gets' function is dangerous and should not be used.
+48
+gdb -nw -q targets/rsz6/target2-rsz6 -x t2gdb.in > targets/rsz6/gdb.out
+Success! You hacked the program!
+Make targets for  Tianle" "Zhu, netid: tz100, email tianle.zhu@dukekunshan.edu.cn
+gcc -DBUFFER_SIZE=32 -static -fno-stack-protector -Og -o targets/tz100/target1-tz100 target1.c
+/tmp/ccjo212T.o: In function `my_bug':
+target1.c:(.text+0xb8): warning: the `gets' function is dangerous and should not be used.
+gcc -DBUFFER_SIZE=48 -static -fno-stack-protector -Og -o targets/tz100/target2-tz100 target2.c
+/tmp/ccLOFoi1.o: In function `my_bug':
+target2.c:(.text+0x57): warning: the `gets' function is dangerous and should not be used.
+32
+gdb -nw -q targets/tz100/target2-tz100 -x t2gdb.in > targets/tz100/gdb.out
+Success! You hacked the program!

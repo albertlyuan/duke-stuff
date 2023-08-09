@@ -1,0 +1,380 @@
+    318 /lib64/ld-linux-x86-64.so.2
+    3cb mfUa
+    6f1 libc.so.6
+    6fb socket
+    702 fflush
+    709 strcpy
+    710 __printf_chk
+    71d exit
+    722 fopen
+    728 __isoc99_sscanf
+    738 connect
+    740 signal
+    747 puts
+    74c __stack_chk_fail
+    75d stdin
+    763 fgets
+    769 __errno_location
+    77a read
+    77f __fprintf_chk
+    78d stdout
+    794 __memmove_chk
+    7a2 __ctype_b_loc
+    7b0 getenv
+    7b7 stderr
+    7be alarm
+    7c4 gethostbyname
+    7d2 close
+    7d8 sleep
+    7de __cxa_finalize
+    7ed __sprintf_chk
+    7fb __libc_start_main
+    80d write
+    813 GLIBC_2.3
+    81d GLIBC_2.7
+    827 GLIBC_2.3.4
+    833 GLIBC_2.4
+    83d GLIBC_2.2.5
+    849 _ITM_deregisterTMCloneTable
+    865 __gmon_start__
+    874 _ITM_registerTMCloneTable
+   13eb u+UH
+   17a6 t.9C
+   1896 ATUSH
+   18ed []A\
+   1b76 ***truncH
+   1b80 ated***
+   1bef AVAUATUSH
+   1ca6 []A\A]A^
+   1cbc AWAVAUATUSL
+   1d58 l$0H
+   1e5b Error: CH
+   1e65 lient unI
+   1e76 able to H
+   1e80 create sI
+   1e92 G ockefA
+   1eab Error: DH
+   1eb5 NS is unI
+   1ec6 able to H
+   1ed0 resolve I
+   1ee2 server aI
+   1ef0 G(ddrefA
+   1ef9 G,ssA
+   1f16 Error: UH
+   1f20 nable toI
+   1f31  connectH
+   1f3b  to the I
+   1f4d G servfA
+   1f56 G$erA
+   1f73 Error: RH
+   1f7d esult stI
+   1f8e ring tooH
+   1f98  large. I
+   1faa IncreaseH
+   1fb4  SUBMITRI
+   1fc6 _MAXBUF
+   201b  tcA
+   20c2 Error: CH
+   20cc lient unI
+   20dd able to H
+   20e7 read firI
+   20f9 st headeH
+   2103 r from sI
+   2115 G0ervefA
+   21dd []A\A]A^A_
+   21ea Error: CH
+   21f4 lient unI
+   2205 able to H
+   220f read staI
+   2221 tus messH
+   222b age fromI
+   223d  server
+   225d Error: CH
+   2267 lient unI
+   2278 able to H
+   2282 write toI
+   2294  the serI
+   22a2 G(ver
+   22bc Error: RH
+   22c6 esult stI
+   22d7 ring conH
+   22e1 tains anI
+   22f3  illegalH
+   22fd  or unprI
+   230f intable H
+   2319 characteI
+   2327 W8fA
+   232c G@r.A
+   2361 t$0L
+   2366 L$(L
+   236b D$ H
+   23ce |$@H
+   23d3 D$PH
+   23d8 D$HH
+   23f8 L$,H
+   2426 D$,A
+   247a Error: CH
+   2484 lient unI
+   2495 able to H
+   249f read heaI
+   24b1 ders froH
+   24bb m serverI
+   2519 ATUSH
+   2613  []A\
+   261b Error: CH
+   2625 lient unH
+   2637 able to H
+   2641 create sH
+   2652 E ockef
+   2667 Error: DH
+   2671 NS is unH
+   2683 able to H
+   268d resolve H
+   269f server aH
+   26ac E(ddref
+   26b4 E,ss
+   2753 APRL
+   27ea []A\A]A^A_
+   3006 %s: Error: Couldn't open %s
+   3023 Usage: %s [<input_file>]
+   303d That's number 2.  Keep going!
+   305b Almost there, one more to go!
+   3080 Welcome to my fiendish little bomb. You have 4 phases with
+   30c0 which to blow yourself up. Have a nice day!
+   30f0 Phase 1 defused. How about the next one?
+   3119 Houston we have a problem.
+   3134 %c %d %d
+   3160 So you think you can stop the bomb with ctrl-c, do you?
+   3198 Congratulations! You've defused the bomb!
+   31c2 Well...
+   31ca OK. :-)
+   31d2 Invalid phase%s
+   31e4 BOOM!!!
+   31ec The bomb has blown up.
+   3203 %d %d %d %d %d %d
+   3215 Error: Premature EOF on stdin
+   3233 GRADE_BOMB
+   323e Error: Input line too long
+   3260 Program timed out after %d seconds
+   3288 Error: HTTP request failed with error %d: %s
+   32b8 GET /%s/submitr.pl/?userid=%s&userpwd=%s&lab=%s&result=%s&submit=submit HTTP/1.0
+   3310 Error: Unable to connect to server %s
+   3336 %%%02X
+   333d %s %d %[a-zA-z ]
+   3354 changeme.ics.cs.cmu.edu
+   336d AUTORESULT_STRING=%s
+   3383 csapp
+   34d7 :*3$"
+   4070 GCC: (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
+   477a <Welcome to my fiendish little bomb. You have 4 phases with
+   47c5 -which to blow yourself up. Have a nice day!
+   47f6 *Phase 1 defused. How about the next one?
+   4825 That's number 2.  Keep going!
+   4848 Almost there, one more to go!
+   4acc /usr/include/x86_64-linux-gnu/bits
+   4aef /usr/lib/gcc/x86_64-linux-gnu/9/include
+   4b17 /usr/include/x86_64-linux-gnu/bits/types
+   4b40 /usr/include
+   4b4e bomb.c
+   4b58 stdio2.h
+   4b64 stddef.h
+   4b70 types.h
+   4b7b struct_FILE.h
+   4b8c FILE.h
+   4b96 stdio.h
+   4ba1 sys_errlist.h
+   4bb2 support.h
+   4bbf phases.h
+   4bcb stdlib.h
+   4bd7 <built-in>
+   4d09 printf
+   4d10 __off_t
+   4d18 _IO_read_ptr
+   4d25 _chain
+   4d2c size_t
+   4d33 _shortbuf
+   4d3d _IO_buf_base
+   4d4a long long unsigned int
+   4d61 read_line
+   4d6b long long int
+   4d79 phase_defused
+   4d87 _fileno
+   4d8f _IO_read_end
+   4d9c _flags
+   4da3 GNU C17 9.3.0 -mtune=generic -march=x86-64 -ggdb -O1 -fasynchronous-unwind-tables -fstack-protector-strong -fstack-clash-protection -fcf-protection
+   4e37 _IO_buf_end
+   4e43 _cur_column
+   4e4f _IO_codecvt
+   4e5b __printf_chk
+   4e68 _old_offset
+   4e74 /home/gs240/210/projects/bomblab/src
+   4e99 infile
+   4ea0 initialize_bomb
+   4eb0 _IO_marker
+   4ebb stdin
+   4ec1 _freeres_buf
+   4ece _IO_write_ptr
+   4edc sys_nerr
+   4ee5 short unsigned int
+   4ef8 _IO_save_base
+   4f06 _lock
+   4f0c _flags2
+   4f14 _mode
+   4f1a __builtin_puts
+   4f29 stdout
+   4f30 _IO_write_end
+   4f3e _IO_lock_t
+   4f49 _IO_FILE
+   4f52 fopen
+   4f58 sys_errlist
+   4f64 _markers
+   4f6d unsigned char
+   4f7b short int
+   4f85 _IO_wide_data
+   4f93 _vtable_offset
+   4fa2 exit
+   4fa7 bomb.c
+   4fae input
+   4fb4 __off64_t
+   4fbe _IO_read_base
+   4fcc _IO_save_end
+   4fd9 __fmt
+   4fdf __pad5
+   4fe6 _unused2
+   4fef stderr
+   4ff6 argv
+   4ffb phase_1
+   5003 phase_2
+   500b phase_3
+   5013 phase_4
+   501b _IO_backup_base
+   502b argc
+   5030 _freeres_list
+   503e main
+   5043 _IO_write_base
+   5fa1 crtstuff.c
+   5fac deregister_tm_clones
+   5fc1 __do_global_dtors_aux
+   5fd7 completed.8060
+   5fe6 __do_global_dtors_aux_fini_array_entry
+   600d frame_dummy
+   6019 __frame_dummy_init_array_entry
+   6038 bomb.c
+   603f phases.c
+   6048 support.c
+   6052 sig_handler
+   605e driverlib.c
+   606a rio_readlineb
+   6078 __FRAME_END__
+   6086 __init_array_end
+   6097 _DYNAMIC
+   60a0 __init_array_start
+   60b3 __GNU_EH_FRAME_HDR
+   60c6 _GLOBAL_OFFSET_TABLE_
+   60dc __libc_csu_fini
+   60ec skip
+   60f1 getenv@@GLIBC_2.2.5
+   6105 phase_defused
+   6113 __errno_location@@GLIBC_2.2.5
+   6131 _ITM_deregisterTMCloneTable
+   614d stdout@@GLIBC_2.2.5
+   6161 strcpy@@GLIBC_2.2.5
+   6175 puts@@GLIBC_2.2.5
+   6187 stdin@@GLIBC_2.2.5
+   619a write@@GLIBC_2.2.5
+   61ad _edata
+   61b4 __stack_chk_fail@@GLIBC_2.4
+   61d0 num_input_strings
+   61e2 initialize_bomb_solve
+   61f8 blank_line
+   6203 submitr
+   620b phase_3
+   6213 phase_1
+   621b invalid_phase
+   6229 init_driver
+   6235 alarm@@GLIBC_2.2.5
+   6248 close@@GLIBC_2.2.5
+   625b node3
+   6261 read@@GLIBC_2.2.5
+   6273 __libc_start_main@@GLIBC_2.2.5
+   6292 fgets@@GLIBC_2.2.5
+   62a5 explode_bomb
+   62b2 node1
+   62b8 __data_start
+   62c5 signal@@GLIBC_2.2.5
+   62d9 gethostbyname@@GLIBC_2.2.5
+   62f4 node5
+   62fa __memmove_chk@@GLIBC_2.3.4
+   6315 __gmon_start__
+   6324 __dso_handle
+   6331 _IO_stdin_used
+   6340 host_table
+   634b string_length
+   6359 __libc_csu_init
+   6369 fflush@@GLIBC_2.2.5
+   637d __isoc99_sscanf@@GLIBC_2.7
+   6398 infile
+   639f sigalrm_handler
+   63af init_timeout
+   63bc __bss_start
+   63c8 main
+   63cd __printf_chk@@GLIBC_2.3.4
+   63e7 read_line
+   63f1 strings_not_equal
+   6403 phase_4
+   640b fopen@@GLIBC_2.2.5
+   641e scratch
+   6426 driver_post
+   6432 phase_2
+   643a exit@@GLIBC_2.2.5
+   644c bomb_id
+   6454 connect@@GLIBC_2.2.5
+   6469 __TMC_END__
+   6475 __fprintf_chk@@GLIBC_2.3.4
+   6490 read_four_numbers
+   64a2 _ITM_registerTMCloneTable
+   64bc node2
+   64c2 node4
+   64c8 sleep@@GLIBC_2.2.5
+   64db node6
+   64e1 __cxa_finalize@@GLIBC_2.2.5
+   64fd read_six_numbers
+   650e initialize_bomb
+   651e __ctype_b_loc@@GLIBC_2.3
+   6537 stderr@@GLIBC_2.2.5
+   654b __sprintf_chk@@GLIBC_2.3.4
+   6566 socket@@GLIBC_2.2.5
+   657b .symtab
+   6583 .strtab
+   658b .shstrtab
+   6595 .interp
+   659d .note.gnu.property
+   65b0 .note.gnu.build-id
+   65c3 .note.ABI-tag
+   65d1 .gnu.hash
+   65db .dynsym
+   65e3 .dynstr
+   65eb .gnu.version
+   65f8 .gnu.version_r
+   6607 .rela.dyn
+   6611 .rela.plt
+   661b .init
+   6621 .plt.got
+   662a .plt.sec
+   6633 .text
+   6639 .fini
+   663f .rodata
+   6647 .eh_frame_hdr
+   6655 .eh_frame
+   665f .init_array
+   666b .fini_array
+   6677 .dynamic
+   6680 .data
+   6686 .bss
+   668b .comment
+   6694 .debug_aranges
+   66a3 .debug_info
+   66af .debug_abbrev
+   66bd .debug_line
+   66c9 .debug_str
+   66d4 .debug_loc

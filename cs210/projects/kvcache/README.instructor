@@ -1,0 +1,5 @@
+Build .kv_cache_util.o offline and that is provided to the students...uses the
+same model as the storeproj and the CSAPP test harness techniques.
+
+gcc -c -fvisibility=hidden -o .kv_cache_util.o kv_cache_util.c This occurs in
+the Makefile.dist automatically

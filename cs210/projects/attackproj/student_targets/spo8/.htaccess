@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user spo8@duke.edu

@@ -1,0 +1,13 @@
+Reading symbols from targets/rdy3/target2-rdy3...(no debugging symbols found)...done.
+Breakpoint 1 at 0x400b87
+
+Breakpoint 1, 0x0000000000400b87 in my_bug ()
+$1 = 0x7fffffffe4a8
+0x0000000000400b8b in my_bug ()
+$2 = 0x7fffffffe490
+$3 = (<text variable, no debug info> *) 0x400b6d <callme>
+A debugging session is active.
+
+	Inferior 1 [process 3696] will be killed.
+
+Quit anyway? (y or n) [answered Y; input not from terminal]

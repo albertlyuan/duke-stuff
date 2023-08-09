@@ -1,0 +1,29 @@
+all: handout autograder
+.PHONY: all handout autograder
+
+LABDIR = `basename $(CURDIR)`_handout
+
+KITDIR = ../autograder_files
+KITFILES = $(KITDIR)/hwtest.py
+FILES = alloc_test.c alloc.h .alloc_util.o t1.txt t2.txt t3.txt t4.txt t5.txt t6.txt t7.txt reflection.txt $(KITFILES)
+
+#generate the lab for student distribution in subdir handout
+handout:
+	make -k clean
+	gcc -O3 -fvisibility=hidden -s -c alloc_util.c -o .alloc_util.o
+	rm -rf $(LABDIR)
+	mkdir $(LABDIR)
+	cp Makefile ./tests/settings.json README.md $(FILES) $(LABDIR)
+	cp -r tests $(LABDIR)
+	unifdef -DSTUDENT -o $(LABDIR)/alloc.c alloc.c; test "$$?" -eq 1
+	
+#generate the autograder zip file in subdir autograder
+autograder:
+	(cd autograder; make)
+	
+clean:
+	make -k clean
+	rm -rf $(LABDIR)
+	rm -f .alloc_util.o
+	(cd autograder; make clean)
+	

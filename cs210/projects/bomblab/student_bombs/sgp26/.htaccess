@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user sgp26@duke.edu

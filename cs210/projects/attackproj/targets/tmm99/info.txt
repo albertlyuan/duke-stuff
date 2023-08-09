@@ -1,0 +1,2 @@
+target1 BUFFER_SIZE = 48, aligned size = 48
+target2 BUFFER_SIZE = 64

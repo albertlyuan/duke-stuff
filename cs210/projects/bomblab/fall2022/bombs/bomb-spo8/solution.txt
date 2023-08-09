@@ -1,0 +1,4 @@
+This is a difficult assignment.
+3 3 4 5
+996 4
+6 24

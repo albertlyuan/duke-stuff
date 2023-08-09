@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+cp /autograder/submission/solution.txt /autograder/source/
+
+cd /autograder/source
+
+SID=$(python3 get_sid.py)
+
+BOMB="student_bombs/$SID/bomb-$SID"
+tar xvf student_bombs.tgz student_bombs
+
+./$BOMB solution.txt > out.txt
+
+python3 autograder.py
+mv /autograder/source/results.json /autograder/results/results.json

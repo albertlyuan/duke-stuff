@@ -1,0 +1,4 @@
+This is a difficult assignment.
+2 3 5 10
+d 699 3
+4 719

@@ -1,0 +1,4 @@
+Pointers make my head hurt!
+3 3 4 5
+j 219 3
+6 6

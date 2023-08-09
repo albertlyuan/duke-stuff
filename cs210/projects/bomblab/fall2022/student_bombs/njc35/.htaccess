@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user njc35@duke.edu

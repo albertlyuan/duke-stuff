@@ -1,0 +1,18 @@
+all: handout autograder
+.PHONY: all handout autograder
+
+LABDIR = `basename $(CURDIR)`_handout
+
+FILES = solution.txt reflection.txt README.md
+
+#generate the lab for student distribution in subdir handout
+handout:
+	rm -rf $(LABDIR)
+	mkdir $(LABDIR)
+	cp  $(FILES) $(LABDIR)
+	
+clean:
+	make -k clean
+	rm -rf $(LABDIR)
+	(cd autograder; make clean)
+	

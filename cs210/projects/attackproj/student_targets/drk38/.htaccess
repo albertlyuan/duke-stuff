@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user drk38@duke.edu

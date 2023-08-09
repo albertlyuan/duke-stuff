@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user lsd25@duke.edu

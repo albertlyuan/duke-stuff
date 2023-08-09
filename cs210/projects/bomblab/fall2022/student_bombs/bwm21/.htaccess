@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user bwm21@duke.edu

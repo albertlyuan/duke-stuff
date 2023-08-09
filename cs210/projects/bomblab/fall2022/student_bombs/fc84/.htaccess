@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user fc84@duke.edu

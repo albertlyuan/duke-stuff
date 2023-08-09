@@ -1,0 +1,4 @@
+Pointers make my head hurt!
+10 30 15 5
+532 6
+4 102

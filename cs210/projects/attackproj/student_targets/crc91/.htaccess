@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user crc91@duke.edu

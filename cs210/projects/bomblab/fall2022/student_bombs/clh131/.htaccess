@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user clh131@duke.edu

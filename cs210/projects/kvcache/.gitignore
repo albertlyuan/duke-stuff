@@ -1,0 +1,9 @@
+kv_cache_test
+kv_cache.o
+results.json
+__pycache__/
+*.pyc
+tests/*diff*
+tests/*actual*
+autograder/*.zip
+autograder/tests

@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user blg29@duke.edu

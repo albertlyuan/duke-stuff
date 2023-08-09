@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user mah170@duke.edu

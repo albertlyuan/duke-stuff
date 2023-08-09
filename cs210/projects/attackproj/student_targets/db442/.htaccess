@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user db442@duke.edu

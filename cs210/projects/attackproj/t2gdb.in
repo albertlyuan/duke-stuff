@@ -1,0 +1,7 @@
+break my_bug
+run
+print /x $rsp
+si
+print /x $rsp
+print &callme
+quit

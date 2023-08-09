@@ -1,0 +1,49 @@
+This is the buffer overflow lab, it has two problems:
+target1.c is for the student to overwrite an existing string with the new string "Use the force Luke"
+target2.c is for the student to smash the stack and call the function callme
+
+The container you build and run on needs to have address space layout randomization disabled.
+The OIT 210 containers already have this part enabled so if you use one of those you can skip to the uname label below.
+Todo this, I recommend starting a new container via the following:
+docker run --name cs210-unsafe --security-opt seccomp=unconfined --mount type=bind,source=/Users/alvy/Containers/210,destination=/cs210 -it dev210 bash
+
+uname:
+Then within the docker bash shell run setarch `uname -m` -R /bin/bash to start a new bash shell, 
+this will disable ASLR for the shell and all its child processes.
+
+Build the hex2raw file and some baseline targets that work with the provided exploit files.
+% make
+Build the student targets using mkalltargets.py, which takes the csv roster 
+provided by gradescope as input.  First, make sure to start with no existing student targets
+% make cleantargets  
+
+Then build the student targets.
+% python3 mkalltargets.py [roster.csv] >& out.mktargets
+
+This creates two directories ./targets and ./student_targets and redirects output to out.mktargets.
+Each of these have a subidirectory per student.  ./student_targets/<netid> contains only the target binaries
+(named target1.<netid> and target2.<netid>) and the hex2raw binary.  The ./targets/<netid> contains
+the targets, hex2raw, exploit1.txt,  exploit2.raw, exploit2.txt,  gdb.out,  info.txt.  exploit<n>.* 
+files are the solution files for this student's targets.  exploit2.raw is the binary exploit string
+produced from the exploit2.txt file (cat exploit2.txt | hex2raw > exploit2.raw)
+
+Check that all targets have valid solutions first run the following
+% python3 cktargets.py [roster.csv] >& out.cktargets
+
+then make sure the output has all Success for both targets for each student, 
+file redirect is useful here. After each student information is printed it should have the following
+Success! You correctly hacked the program
+Success! You hacked the program!
+
+This corresonds to target1 and target2 success.
+
+Students should place their solutions in the exploit<n>.txt files.  target1 takes ascii directly whereas
+target 2 requires a binary file and thus should use the .raw input file.
+
+The student labs differ in the amount of space allocated on the stack via a BUFFER_SIZE environment variable
+that takes on one of values 16, 32, 48, 64.  target1 and target2 may have different values for a student.
+
+Students should submit exploit1.txt exploit2.txt and exploit2.raw
+Unfortunately, we can't use gradescope to autograde these and thus will need a script to do it.
+An appropriately modified cktargets.py should do it.
+

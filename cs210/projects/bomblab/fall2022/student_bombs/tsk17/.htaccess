@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user tsk17@duke.edu

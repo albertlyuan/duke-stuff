@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user mog5@duke.edu

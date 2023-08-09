@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user ns348@duke.edu

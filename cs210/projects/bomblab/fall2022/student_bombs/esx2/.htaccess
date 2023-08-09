@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user esx2@duke.edu

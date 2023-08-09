@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user ab993@duke.edu

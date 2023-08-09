@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user jy242@duke.edu

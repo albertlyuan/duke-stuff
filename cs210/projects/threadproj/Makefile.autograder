@@ -1,0 +1,19 @@
+
+autograder=run_autograder run_tests.py setup.sh tests barrier_test.c Makefile solutions
+SDIR = `basename $(CURDIR)`_handout
+
+.PHONY: autograder
+autograder:
+	mkdir -p $(SDIR)
+	cp test_checks.py $(SDIR)/
+	cp test_main.py $(SDIR)/
+	cp -r solutions $(SDIR)/
+	unifdef -DSTUDENT -o $(SDIR)/barrier.c barrier.c; test "$$?" -eq 1
+	unifdef -DSTUDENT -o $(SDIR)/barrier.h barrier.h; test "$$?" -eq 1
+	cp barrier_test.c $(SDIR)/
+	cp README.md $(SDIR)/
+	cp Makefile $(SDIR)/
+	cp -r resources $(SDIR)/
+	cp test_checks.py tests/
+	zip -r autograder.zip $(autograder)
+	rm tests/test_checks.py

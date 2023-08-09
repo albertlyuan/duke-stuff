@@ -1,0 +1,29 @@
+all: handout autograder
+.PHONY: all handout autograder
+
+LABDIR = `basename $(CURDIR)`_handout
+
+KITDIR = ../autograder_files
+KITFILES = $(KITDIR)/hwtest.py autograder/settings.json
+FILES = kv_cache.c kv_cache_test.c kv_cache.h .kv_cache_util.o $(KITFILES)
+
+#generate the lab for student distribution in subdir handout
+handout:
+	make -k clean
+	gcc -O3 -fvisibility=hidden -s -c kv_cache_util.c -o .kv_cache_util.o
+	rm -rf $(LABDIR)
+	mkdir $(LABDIR)
+	cp Makefile README.md $(FILES) $(LABDIR)
+	cp -r tests $(LABDIR)
+	unifdef -DSTUDENT -o $(LABDIR)/kv_cache.c kv_cache.c; test "$$?" -eq 1
+	
+#generate the autograder zip file in subdir autograder
+autograder:
+	(cd autograder; make)
+	
+clean:
+	make -k clean
+	rm -rf $(LABDIR)
+	rm -f .kv_cache_util.o
+	(cd autograder; make clean)
+	

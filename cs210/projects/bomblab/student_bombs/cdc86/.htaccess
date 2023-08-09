@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user cdc86@duke.edu

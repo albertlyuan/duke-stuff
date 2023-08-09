@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user va68@duke.edu

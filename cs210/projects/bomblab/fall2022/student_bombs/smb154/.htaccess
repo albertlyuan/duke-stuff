@@ -1,0 +1,3 @@
+AuthType shibboleth
+ShibRequireSession On
+Require user smb154@duke.edu
