@@ -1,0 +1,47 @@
+.root {
+    /*-fx-font-family: "Segoe UI Semibold";*/
+    /*-fx-background: cornsilk;*/
+    /* define variables to avoid duplicating values */
+    -fx-alignment: top-center;
+}
+
+. SettingsUI,
+. BoardStyleUI,
+. GameInfoUI,
+. GameSettingsUI,
+. LoginUI {
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+    -fx-padding: 15px;
+}
+
+. login-window {
+    -fx-alignment: center;
+    -fx-background-color: #e1e3f5;
+}
+
+. EndScreenUI {
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+    -fx-padding: 10px;
+}
+
+.button,
+.color-picker,
+.combo-box,
+.menu-button {
+    -fx-padding: 5px 10px;
+}
+
+.label {
+    -fx-alignment: center;
+}
+
+
+#WinnerText {
+    -fx-font: bold 20pt "Arial";
+}
+
+#DrawText {
+    -fx-font: bold 40pt "Arial";
+}
