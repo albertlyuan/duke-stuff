@@ -1,0 +1,6 @@
+put bDuck.json in data/chess/pieces/
+put bDuck.png in src/images/companion/
+put demoLocations.csv in data/chess/locations/
+put duckGame in data/chess/
+
+If white ducks are wanted, copy bDuck.json in pieces and name it wDuck.json, do the same for the image.
