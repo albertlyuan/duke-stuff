@@ -1,0 +1,21 @@
+all: handout autograder
+.PHONY: all handout autograder
+
+LABDIR = `basename $(CURDIR)`_handout
+
+# Generate the lab for student distribution in subdirectory handout.
+handout:
+	make -k clean
+	rm -rf $(LABDIR)
+	mkdir $(LABDIR)
+	cp Makefile settings.json README.md ../src/test_kit.py ../src/common.py $(LABDIR)
+	cp -r tests $(LABDIR)
+	
+# Generate the autograder zip file in subdirectory autograder.
+autograder:
+	(cd autograder; make)
+	
+clean:
+	make -k clean
+	rm -rf $(LABDIR)
+	(cd autograder; make clean)

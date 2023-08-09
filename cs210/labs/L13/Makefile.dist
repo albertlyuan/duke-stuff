@@ -1,0 +1,29 @@
+all: handout autograder
+.PHONY: all handout autograder
+
+LABDIR = `basename $(CURDIR)`_handout
+
+FILES = *.s asm isa.h interpret.c indirect.c settings.json README.md ../src/test_kit.py ../src/common.py
+
+#generate the lab for student distribution in subdir handout
+handout:
+	make -k clean
+	make asm
+	rm -rf $(LABDIR)
+	mkdir $(LABDIR)
+	cp $(FILES) $(LABDIR)
+	cp -r tests $(LABDIR)
+	cp Makefile.student $(LABDIR)/Makefile
+	unifdef -DSTUDENT -o $(LABDIR)/interpret.c interpret.c; test "$$?" -eq 1
+	unifdef -DSTUDENT -o $(LABDIR)/indirect.c indirect.c; test "$$?" -eq 1
+
+	
+#generate the autograder zip file in subdir autograder
+autograder:
+	(cd autograder; make)
+	
+clean:
+	make -k clean
+	rm -rf $(LABDIR)
+	(cd autograder; make clean)
+	

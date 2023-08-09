@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+cp /autograder/submission/*.c /autograder/source/
+
+# Run make with -k so it continues to compile next file even if a file fails
+cd /autograder/source && make -k &> compile_output.txt
+
+python3 autograder.py ALL
+mv /autograder/source/results.json /autograder/results/results.json

@@ -1,0 +1,3 @@
+Enter string 1.
+Enter string 2.
+apple, pen, applepen

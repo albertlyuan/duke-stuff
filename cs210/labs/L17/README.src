@@ -1,0 +1,6 @@
+To create a trace use pintool and then delete the #eof at the end of the trace file.
+
+e.g.,
+../../../pin -t obj-intel64/pinatrace.so -- /bin/ls
+
+row_trace.txt and col_trace.txt are traces from smaller versions of the problems in L15.

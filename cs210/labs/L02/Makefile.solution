@@ -1,0 +1,15 @@
+all: solution
+
+SOLUTIONDIR = `basename $(CURDIR)`_solution
+FILES = ring_student.c recurse_student.c strings.c
+
+# Generate the solution for the lab in a subdirectory solution.
+solution:
+	rm -rf $(SOLUTIONDIR)
+	mkdir $(SOLUTIONDIR)
+	cp $(FILES) $(SOLUTIONDIR)
+	unifdef -USTUDENT -o $(SOLUTIONDIR)/ring_student.c ring_student.c; test "$$?" -eq 1
+	unifdef -USTUDENT -o $(SOLUTIONDIR)/recurse_student.c recurse_student.c; test "$$?" -eq 1
+	
+clean:
+	rm -rf $(SOLUTIONDIR)

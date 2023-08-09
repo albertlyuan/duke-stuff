@@ -1,0 +1,3 @@
+Before: Hello from child, &value = 0x0x7fff78e93e20, value = 1234
+After: Hello from child, &value = 0x0x7fff78e93e20, value = 210
+Hello from parent, &value = 0x0x7fff78e93e20, value = 1234, child pid = 64641

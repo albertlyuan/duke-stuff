@@ -1,0 +1,3 @@
+When prompted, enter a string that causes my_bug to return the value 120
+foo is 21
+Success!

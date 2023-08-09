@@ -1,0 +1,11 @@
+thread1
+thread2
+thread3
+*.o
+!.thread_util.o
+results.json
+*_handout/
+__pycache__/
+*.pyc
+output/
+autograder/*.zip

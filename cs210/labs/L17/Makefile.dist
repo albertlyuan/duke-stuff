@@ -1,0 +1,25 @@
+all: handout autograder
+.PHONY: all handout autograder
+
+LABDIR = `basename $(CURDIR)`_handout
+
+FILES = casim.c sumarrayrows.c sumarraycols.c settings.json row_trace.txt col_trace.txt README.md Makefile ../src/test_kit.py ../src/common.py
+
+#generate the lab for student distribution in subdir handout
+handout:
+	make -k clean
+	rm -rf $(LABDIR)
+	mkdir $(LABDIR)
+	cp $(FILES) $(LABDIR)
+	cp -r tests $(LABDIR)
+	unifdef -DSTUDENT -o $(LABDIR)/casim.c casim.c; test "$$?" -eq 1
+	
+#generate the autograder zip file in subdir autograder
+autograder:
+	(cd autograder; make)
+	
+clean:
+	make -k clean
+	rm -rf $(LABDIR)
+	(cd autograder; make clean)
+	

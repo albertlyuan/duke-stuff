@@ -1,0 +1,9 @@
+hello
+*_handout/
+results.json
+__pycache__/
+*.pyc
+tests/*diff*
+tests/*actual*
+autograder/*.zip
+autograder/*.zip

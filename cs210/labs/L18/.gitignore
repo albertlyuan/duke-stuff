@@ -1,0 +1,13 @@
+fork1
+fork2
+fork3
+sig1
+sig2
+*.o
+*.trace
+results.json
+*_handout/
+__pycache__/
+*.pyc
+output/
+autograder/*.zip

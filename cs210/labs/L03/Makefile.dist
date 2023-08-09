@@ -1,0 +1,37 @@
+all: handout autograder
+.PHONY: all handout autograder
+
+LABDIR = `basename $(CURDIR)`_handout
+FILES = convert.c           \
+				convert_student.c   \
+        .gitignore          \
+				convert_input_0.txt \
+				convert_input_1.txt \
+				convert_input_2.txt \
+				convert_input_3.txt \
+				convert_input_4.txt \
+				convert_input_5.txt \
+				convert_input_6.txt \
+				convert_input_7.txt \
+				convert_input_8.txt \
+				convert_input_9.txt
+
+# Generate the lab for student distribution in subdirectory `handout`.
+handout:
+	make -k clean
+	rm -rf $(LABDIR)
+	mkdir $(LABDIR)
+	cp Makefile settings.json README.md ../src/test_kit.py ../src/common.py \
+	  $(FILES) $(LABDIR)
+	cp -r tests $(LABDIR)
+	unifdef -DSTUDENT -o $(LABDIR)/convert_student.c convert_student.c; test "$$?" -eq 1
+	
+# Generate the autograder .zip file in subdirectory `autograder`.
+autograder:
+	(cd autograder; make)
+	
+clean:
+	make -k clean
+	rm -rf $(LABDIR)
+	(cd autograder; make clean)
+	

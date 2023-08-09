@@ -1,0 +1,37 @@
+all: handout autograder
+.PHONY: all handout autograder
+
+LABDIR = `basename $(CURDIR)`_handout
+FILES = prog1.c            \
+	mystery1           \
+	mystery2           \
+	README.md          \
+	settings.json      \
+	../src/test_kit.py \
+	../src/common.py   \
+	.gitignore
+
+# Generate the lab for student distribution in subdirectory `handout`.
+handout:
+	make -k clean
+	make
+	rm -rf $(LABDIR)
+	mkdir $(LABDIR)
+	cp $(FILES) $(LABDIR)
+	cp -r tests $(LABDIR)
+	cp Makefile.handout $(LABDIR)/Makefile
+	touch $(LABDIR)/solution_f1.txt
+	touch $(LABDIR)/solution_f2.txt
+	touch $(LABDIR)/solution_f3.txt
+	touch $(LABDIR)/solution_ec.txt
+	cp .gitignore.student $(LABDIR)/.gitignore
+
+# Generate the autograder .zip file in subdirectory `autograder`.
+autograder:
+	(cd autograder; make)
+	
+clean:
+	make -k clean
+	rm -rf $(LABDIR)
+	(cd autograder; make clean)
+	

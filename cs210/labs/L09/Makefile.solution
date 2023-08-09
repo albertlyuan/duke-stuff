@@ -1,0 +1,13 @@
+all: solution
+
+SOLUTIONDIR = `basename $(CURDIR)`_solution
+FILES = solution_f1.txt solution_f2.txt solution_f3.txt solution_f4.txt
+
+#generate the solution for the lab in a solution subdir
+solution:
+	rm -rf $(SOLUTIONDIR)
+	mkdir $(SOLUTIONDIR)
+	cp $(FILES) $(SOLUTIONDIR)
+	
+clean:
+	rm -rf $(SOLUTIONDIR)

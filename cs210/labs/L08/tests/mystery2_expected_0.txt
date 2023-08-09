@@ -1,0 +1,2 @@
+Enter an integer that causes g1 to return 17
+Success

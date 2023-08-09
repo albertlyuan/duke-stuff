@@ -1,0 +1,24 @@
+all: handout
+.PHONY: all handout
+
+LABDIR = `basename $(CURDIR)`_handout
+FILES = func1.c func2.c main.c Makefile Makefile.2 README.md .gitignore
+
+#generate the lab for student distribution in subdir handout
+handout:
+	make -k clean
+	make
+	rm -rf $(LABDIR)
+	mkdir $(LABDIR)
+	cp $(FILES) $(LABDIR)
+	cp Makefile $(LABDIR)/Makefile
+
+#generate the autograder zip file in subdir autograder
+autograder:
+	(cd autograder; make)
+	
+clean:
+	make -k clean
+	rm -rf $(LABDIR)
+	(cd autograder; make clean)
+	

@@ -1,0 +1,18 @@
+all: handout 
+.PHONY: all handout 
+
+LABDIR = `basename $(CURDIR)`_handout
+FILES = debug1.c debug2 .gitignore
+
+# Generate the lab for student distribution in subdirectory `handout`.
+handout:
+	make -k clean
+	make
+	rm -rf $(LABDIR)
+	mkdir $(LABDIR)
+	cp README.md $(FILES) $(LABDIR)
+	cp Makefile.handout $(LABDIR)/Makefile
+	
+clean:
+	make -k clean
+	rm -rf $(LABDIR)

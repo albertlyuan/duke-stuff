@@ -1,0 +1,29 @@
+all: handout autograder
+.PHONY: all handout autograder
+
+LABDIR = `basename $(CURDIR)`_handout
+
+FILES = cachechecker .gitignore README.md ../src/test_kit.py ../src/common.py settings.json
+
+#generate the lab for student distribution in subdir handout
+handout:
+	make -k clean
+	make
+	rm -rf $(LABDIR)
+	mkdir $(LABDIR)
+	cp $(FILES) $(LABDIR)
+	cp -r tests $(LABDIR)
+	touch $(LABDIR)/q1.txt
+	touch $(LABDIR)/q2.txt
+	touch $(LABDIR)/q3.txt
+	touch $(LABDIR)/q4.txt
+	
+#generate the autograder zip file in subdir autograder
+autograder:
+	(cd autograder; make)
+	
+clean:
+	make -k clean
+	rm -rf $(LABDIR)
+	(cd autograder; make clean)
+	

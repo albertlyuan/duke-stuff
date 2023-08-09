@@ -1,0 +1,24 @@
+all: handout autograder
+.PHONY: all handout autograder
+
+LABDIR = `basename $(CURDIR)`_handout
+
+FILES = thread1.c thread2.c mythreads.h .thread_util.o test_kit.py README.md Makefile
+
+#generate the lab for student distribution in subdir handout
+handout:
+	make -k clean
+	rm -rf $(LABDIR)
+	mkdir $(LABDIR)
+	cp $(FILES) $(LABDIR)
+	unifdef -DSTUDENT -o $(LABDIR)/thread3.c thread3.c; test "$$?" -eq 1
+	
+#generate the autograder zip file in subdir autograder
+autograder:
+	(cd autograder; make)
+	
+clean:
+	make -k clean
+	rm -rf $(LABDIR)
+	(cd autograder; make clean)
+	

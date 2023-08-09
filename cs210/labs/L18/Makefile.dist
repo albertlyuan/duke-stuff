@@ -1,0 +1,28 @@
+all: handout autograder
+.PHONY: all handout autograder
+
+LABDIR = `basename $(CURDIR)`_handout
+
+FILES = fork1.c fork2.c fork3.c sig1.c sig2.c .fork_util.o my_fork.h test_kit.py README.md Makefile
+
+#generate the lab for student distribution in subdir handout
+handout:
+	make -k clean
+	gcc -O3 -fvisibility=hidden -s -c -o .fork_util.o fork_util.c
+	rm -rf $(LABDIR)
+	mkdir $(LABDIR)
+	cp $(FILES) $(LABDIR)
+	unifdef -DSTUDENT -o $(LABDIR)/fork1.c fork1.c; test "$$?" -eq 1
+	unifdef -DSTUDENT -o $(LABDIR)/fork2.c fork2.c; test "$$?" -eq 1
+	unifdef -DSTUDENT -o $(LABDIR)/fork3.c fork3.c; test "$$?" -eq 1
+	unifdef -DSTUDENT -o $(LABDIR)/sig2.c sig2.c; test "$$?" -eq 1
+	
+#generate the autograder zip file in subdir autograder
+autograder:
+	(cd autograder; make)
+	
+clean:
+	make -k clean
+	rm -rf $(LABDIR)
+	(cd autograder; make clean)
+	

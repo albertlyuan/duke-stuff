@@ -1,0 +1,2 @@
+Enter three integers (a1, a2, a3) that result in values a1 = 13 a2 = 7 a3 = 10 after f3 is executed.
+Success!

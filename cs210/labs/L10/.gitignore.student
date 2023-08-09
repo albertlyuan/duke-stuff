@@ -1,0 +1,6 @@
+prog3 
+__pycache__/
+*.pyc
+tests/*_actual*
+tests/*_diff*
+vgcore*

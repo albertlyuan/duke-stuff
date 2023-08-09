@@ -1,0 +1,9 @@
+prog5 
+mystery5
+results.json
+*_handout/
+__pycache__/
+*.pyc
+tests/*_actual*
+tests/*_diff*
+autograder/*.zip

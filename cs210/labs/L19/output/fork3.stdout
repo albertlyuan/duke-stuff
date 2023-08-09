@@ -1,0 +1,4 @@
+Before: Hello from child, &value = 0x0x7ff5064f9000, value = 1234
+After: Hello from child, &value = 0x0x7ff5064f9000, value = 210
+Before Wait: Hello from parent,  &value = 0x0x7ff5064f9000, value = 1234, child pid = 64644
+After Wait: Hello from parent,  &value = 0x0x7ff5064f9000, value = 210, child pid = 64644

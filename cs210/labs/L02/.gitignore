@@ -1,0 +1,12 @@
+strings
+recurse
+ring
+results.json
+*_handout/
+*_solution/
+__pycache__/
+*.pyc
+tests/*_actual*
+tests/*_diff*
+autograder/*.zip
+*.dSYM

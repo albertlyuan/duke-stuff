@@ -1,0 +1,6 @@
+You need to build .thread_util.o for local testing of this code. Makefile.dist does this automatically when
+generating the student handout directory. The gcc command is
+
+gcc -O3 -fvisibility=hidden -s -c thread_util.c -o .thread_util.o
+
+As with other labs, #ifdef STUDENT is used to to remove solution code from the handout.

@@ -1,0 +1,43 @@
+all: handout autograder
+.PHONY: all handout autograder
+
+LABDIR = `basename $(CURDIR)`_handout
+
+FILES = ring.c              \
+				ring_student.c      \
+        recurse.c           \
+				recurse_student.c   \
+				strings.c           \
+        Makefile            \
+        settings.json       \
+				README.md           \
+				../src/test_kit.py  \
+				../src/common.py    \
+				.gitignore          \
+        ring_input_0.txt    \
+        ring_input_1.txt    \
+        ring_input_2.txt    \
+        ring_input_3.txt    \
+				strings_input_0.txt \
+				strings_input_1.txt \
+				strings_input_2.txt
+
+# Generate the lab for student distribution in subdirectory handout.
+handout:
+	make -k clean
+	rm -rf $(LABDIR)
+	mkdir $(LABDIR)
+	cp $(FILES) $(LABDIR)
+	cp -r tests $(LABDIR)
+	unifdef -DSTUDENT -o $(LABDIR)/ring_student.c ring_student.c; test "$$?" -eq 1
+	unifdef -DSTUDENT -o $(LABDIR)/recurse_student.c recurse_student.c; test "$$?" -eq 1
+	unifdef -DSTUDENT -o $(LABDIR)/strings.c strings.c; test "$$?" -eq 1
+	
+# Generate the autograder zip file in subdirectory autograder.
+autograder:
+	(cd autograder; make)
+	
+clean:
+	make -k clean
+	rm -rf $(LABDIR)
+	(cd autograder; make clean)

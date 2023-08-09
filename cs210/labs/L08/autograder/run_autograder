@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+#copy solution file to source directory
+cp /autograder/submission/solution_f1.txt /autograder/source/
+cp /autograder/submission/solution_f2.txt /autograder/source/
+cp /autograder/submission/solution_f3.txt /autograder/source/
+cp /autograder/submission/solution_ec.txt /autograder/source/
+
+cd /autograder/source
+
+python3 autograder.py ALL
+mv /autograder/source/results.json /autograder/results/results.json

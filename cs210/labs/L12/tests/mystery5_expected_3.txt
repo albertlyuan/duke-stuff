@@ -1,0 +1,2 @@
+Extra Credit: Enter the integer that will cause clear_if_in_list to return the value 2
+Success!

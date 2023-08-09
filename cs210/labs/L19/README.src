@@ -1,0 +1,13 @@
+These tracefiles are modified traces from Lab16 directory to reduce the addresses to be 24 bits, 
+info to create is below.
+
+First to create a trace use pintool and then delete the #eof at the end of the trace file.
+
+e.g.,
+../../../pin -t obj-intel64/pinatrace.so -- /bin/ls
+
+row_trace.txt and col_trace.txt are traces from smaller versions of the problems in L15.
+
+Then, use reduce_trace.py to create a 24-bit address traces.
+
+pagetable.py is a python version for cross checking

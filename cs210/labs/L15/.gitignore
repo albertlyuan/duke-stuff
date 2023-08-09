@@ -1,0 +1,12 @@
+sumarrayrows
+sumarraycols
+sumarray3d
+sumarray3dnew 
+sumvec
+*.o
+results.json
+*_handout/
+autograder/*.zip
+__pycache__/
+*.pyc
+vgcore*

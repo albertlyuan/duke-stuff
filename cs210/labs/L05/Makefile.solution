@@ -1,0 +1,13 @@
+all: solution
+
+SOLUTIONDIR = `basename $(CURDIR)`_solution
+FILES = pointers.c
+
+# Generate the solution for the lab in the subdirectory `solution`.
+solution:
+	rm -rf $(SOLUTIONDIR)
+	mkdir $(SOLUTIONDIR)
+	unifdef -USTUDENT -o $(SOLUTIONDIR)/$(FILES) $(FILES); test "$$?" -eq 1
+	
+clean:
+	rm -rf $(SOLUTIONDIR)

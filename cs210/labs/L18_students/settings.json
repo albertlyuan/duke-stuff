@@ -1,0 +1,29 @@
+{
+	"test_dir": "tests",
+	"mode": "exe",
+	"test_suite_names": ["cachechecker", "casim"],
+	"non_zero_exit_status_penalty": 0.75,
+	"memory_penalty": 0.5,
+	"test_suites": {
+	  "cachechecker": [
+			{ "desc": "32 1024 32",  "args": ["32", "1024", "32"],  "diff": "normal", "infile": "q1.txt", "outfile": "",  "valgrind": false, "points": 12.5 },
+			{ "desc": "64 1024 32",  "args": ["64", "1024", "32"],  "diff": "normal", "infile": "q2.txt", "outfile": "",  "valgrind": false, "points": 12.5 },
+			{ "desc": "32 512 32",  "args": ["32", "512", "32"],  "diff": "normal", "infile": "q3.txt", "outfile": "",  "valgrind": false, "points": 12.5 },
+			{ "desc": "64 512 32",  "args": ["64", "512", "32"],  "diff": "normal", "infile": "q4.txt", "outfile": "",  "valgrind": false, "points": 12.5 }
+		],
+    "casim": [
+      { "desc": "cols 16 1024",  "args": ["16", "1024", "col_trace.txt" ],  "diff": "normal", "infile": "", "outfile": "",  "valgrind": false, "points":4.165 },
+      { "desc": "rows 16 1024",  "args": ["16", "1024", "row_trace.txt" ],  "diff": "normal", "infile": "", "outfile": "",  "valgrind": false, "points":4.165 },
+      { "desc": "cols 32 1024",  "args": ["32", "1024", "col_trace.txt" ],  "diff": "normal", "infile": "", "outfile": "",  "valgrind": false, "points":4.165 },
+      { "desc": "rows 32 1024",  "args": ["32", "1024", "row_trace.txt" ],  "diff": "normal", "infile": "", "outfile": "",  "valgrind": false, "points":4.165 },
+      { "desc": "cols 64 1024",  "args": ["64", "1024", "col_trace.txt" ],  "diff": "normal", "infile": "", "outfile": "",  "valgrind": false, "points":4.165 },
+      { "desc": "rows 64 1024",  "args": ["64", "1024", "row_trace.txt" ],  "diff": "normal", "infile": "", "outfile": "",  "valgrind": false, "points":4.165 },
+      { "desc": "cols 16 2048",  "args": ["16", "2048", "col_trace.txt" ],  "diff": "normal", "infile": "", "outfile": "",  "valgrind": false, "points":4.165 },
+      { "desc": "rows 16 2048",  "args": ["16", "2048", "row_trace.txt" ],  "diff": "normal", "infile": "", "outfile": "",  "valgrind": false, "points":4.165 },
+      { "desc": "cols 32 2048",  "args": ["32", "2048", "col_trace.txt" ],  "diff": "normal", "infile": "", "outfile": "",  "valgrind": false, "points":4.17 },
+      { "desc": "rows 32 2048",  "args": ["32", "2048", "row_trace.txt" ],  "diff": "normal", "infile": "", "outfile": "",  "valgrind": false, "points":4.17 },      
+      { "desc": "cols 64 2048",  "args": ["64", "2048", "col_trace.txt" ],  "diff": "normal", "infile": "", "outfile": "",  "valgrind": false, "points":4.17 },
+      { "desc": "rows 64 2048",  "args": ["64", "2048", "row_trace.txt" ],  "diff": "normal", "infile": "", "outfile": "",  "valgrind": false, "points":4.17 }
+    ]
+	}
+}

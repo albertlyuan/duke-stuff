@@ -1,0 +1,13 @@
+all: solution
+
+SOLUTIONDIR = `basename $(CURDIR)`_solution
+FILES = convert_student.c
+
+# Generate the solution for the lab in subdirectory `solution`.
+solution:
+	rm -rf $(SOLUTIONDIR)
+	mkdir $(SOLUTIONDIR)
+	unifdef -USTUDENT -o $(SOLUTIONDIR)/convert_student.c convert_student.c; test "$$?" -eq 1
+	
+clean:
+	rm -rf $(SOLUTIONDIR)
