@@ -1,0 +1,6 @@
+drinker(name, address)
+bar(name, address)
+beer(name, brewer)
+frequents(drinker, bar, times_a_week)
+likes(drinker, beer)
+serves(bar, beer, price)

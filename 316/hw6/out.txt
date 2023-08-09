@@ -1,0 +1,618 @@
+[
+	{
+		"_id" : "Economic Development, Public Buildings, and Emergency Management",
+		"membercount" : 14
+	},
+	{
+		"_id" : "State, Foreign Operations, and Related Programs",
+		"membercount" : 25
+	},
+	{
+		"_id" : "National Parks",
+		"membercount" : 14
+	},
+	{
+		"_id" : "Antitrust, Competition Policy and Consumer Rights",
+		"membercount" : 9
+	},
+	{
+		"_id" : "Immigration and Citizenship",
+		"membercount" : 14
+	},
+	{
+		"_id" : "Oversight, Management, and Accountability",
+		"membercount" : 7
+	},
+	{
+		"_id" : "Worker and Family Support",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Labor, Health and Human Services, Education, and Related Agencies",
+		"membercount" : 13
+	},
+	{
+		"_id" : "Energy",
+		"membercount" : 63
+	},
+	{
+		"_id" : "Commodities, Risk Management, and Trade",
+		"membercount" : 13
+	},
+	{
+		"_id" : "Communications, Technology, Innovation, and the Internet",
+		"membercount" : 26
+	},
+	{
+		"_id" : "Livestock and Foreign Agriculture",
+		"membercount" : 19
+	},
+	{
+		"_id" : "Disability Assistance and Memorial Affairs",
+		"membercount" : 7
+	},
+	{
+		"_id" : "Europe, Eurasia, Energy, and the Environment",
+		"membercount" : 22
+	},
+	{
+		"_id" : "Tactical Air and Land Forces",
+		"membercount" : 16
+	},
+	{
+		"_id" : "Innovation and Workforce Development",
+		"membercount" : 7
+	},
+	{
+		"_id" : "Investigations, Oversight and Regulations",
+		"membercount" : 5
+	},
+	{
+		"_id" : "Intelligence Modernization and Readiness",
+		"membercount" : 8
+	},
+	{
+		"_id" : "Economic Policy",
+		"membercount" : 13
+	},
+	{
+		"_id" : "Research and Technology",
+		"membercount" : 12
+	},
+	{
+		"_id" : "Western Hemisphere, Transnational Crime, Civilian Security, Democracy, Human Rights, and Global Women's Issues",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Early Childhood, Elementary, and Secondary Education",
+		"membercount" : 12
+	},
+	{
+		"_id" : "Intellectual Property",
+		"membercount" : 15
+	},
+	{
+		"_id" : "Economic and Consumer Policy",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Courts, Intellectual Property, and the Internet",
+		"membercount" : 17
+	},
+	{
+		"_id" : "Commerce, Justice, Science, and Related Agencies",
+		"membercount" : 29
+	},
+	{
+		"_id" : "National Security",
+		"membercount" : 15
+	},
+	{
+		"_id" : "Economic Opportunity",
+		"membercount" : 10
+	},
+	{
+		"_id" : "Investigations and Oversight",
+		"membercount" : 10
+	},
+	{
+		"_id" : "Federal Spending Oversight and Emergency Management",
+		"membercount" : 8
+	},
+	{
+		"_id" : "Environment",
+		"membercount" : 22
+	},
+	{
+		"_id" : "Energy and Mineral Resources",
+		"membercount" : 15
+	},
+	{
+		"_id" : "Water, Oceans, and Wildlife",
+		"membercount" : 23
+	},
+	{
+		"_id" : "Rural Development, Agriculture, Trade and Entrepreneurship",
+		"membercount" : 5
+	},
+	{
+		"_id" : "State Department and USAID Management, International Operations, and Bilateral International Development",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Energy and Water Development, and Related Agencies",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Children and Families",
+		"membercount" : 15
+	},
+	{
+		"_id" : "Intelligence and Counterterrorism",
+		"membercount" : 8
+	},
+	{
+		"_id" : "Health",
+		"membercount" : 60
+	},
+	{
+		"_id" : "Transportation and Infrastructure",
+		"membercount" : 19
+	},
+	{
+		"_id" : "Asia, the Pacific, and Nonproliferation",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Conservation and Forestry",
+		"membercount" : 9
+	},
+	{
+		"_id" : "Homeland Security",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Water and Power",
+		"membercount" : 12
+	},
+	{
+		"_id" : "Defense",
+		"membercount" : 18
+	},
+	{
+		"_id" : "Nutrition, Oversight, and Department Operations",
+		"membercount" : 14
+	},
+	{
+		"_id" : "Airland",
+		"membercount" : 15
+	},
+	{
+		"_id" : "Western Hemisphere, Civilian Security, and Trade",
+		"membercount" : 14
+	},
+	{
+		"_id" : "Manufacturing, Trade, and Consumer Protection",
+		"membercount" : 19
+	},
+	{
+		"_id" : "the Constitution",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Transportation, Housing and Urban Development, and Related Agencies",
+		"membercount" : 18
+	},
+	{
+		"_id" : "National Parks, Forests, and Public Lands",
+		"membercount" : 20
+	},
+	{
+		"_id" : "Oversight and Investigations",
+		"membercount" : 56
+	},
+	{
+		"_id" : "Near East, South Asia, Central Asia, and Counterterrorism",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Transportation, and Housing and Urban Development, and Related Agencies",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Middle East, North Africa, and International Terrorism",
+		"membercount" : 14
+	},
+	{
+		"_id" : "Housing, Community Development, and Insurance",
+		"membercount" : 19
+	},
+	{
+		"_id" : "Antitrust, Commercial and Administrative Law",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Social Security",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Emerging Threats and Capabilities",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Seapower and Projection Forces",
+		"membercount" : 17
+	},
+	{
+		"_id" : "National Security, International Development and Monetary Policy",
+		"membercount" : 2
+	},
+	{
+		"_id" : "Constitution, Civil Rights, and Civil Liberties",
+		"membercount" : 12
+	},
+	{
+		"_id" : "Energy, Natural Resources, and Infrastructure",
+		"membercount" : 14
+	},
+	{
+		"_id" : "Securities, Insurance, and Investment",
+		"membercount" : 19
+	},
+	{
+		"_id" : "Crime, Terrorism and Homeland Security",
+		"membercount" : 20
+	},
+	{
+		"_id" : "Health, Employment, Labor, and Pensions",
+		"membercount" : 22
+	},
+	{
+		"_id" : "Railroads, Pipelines, and Hazardous Materials",
+		"membercount" : 33
+	},
+	{
+		"_id" : "Interior, Environment, and Related Agencies",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Economic Growth, Tax and Capital Access",
+		"membercount" : 8
+	},
+	{
+		"_id" : "Health Care",
+		"membercount" : 24
+	},
+	{
+		"_id" : "Investor Protection, Entrepreneurship, and Capital Markets",
+		"membercount" : 21
+	},
+	{
+		"_id" : "International Trade, Customs, and Global Competitiveness",
+		"membercount" : 21
+	},
+	{
+		"_id" : "Departments of Labor, Health and Human Services, and Education, and Related Agencies",
+		"membercount" : 20
+	},
+	{
+		"_id" : "Workforce Protections",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Border Security and Immigration",
+		"membercount" : 17
+	},
+	{
+		"_id" : "Financial Services and General Government",
+		"membercount" : 22
+	},
+	{
+		"_id" : "SeaPower",
+		"membercount" : 13
+	},
+	{
+		"_id" : "Conservation, Forestry, and Natural Resources",
+		"membercount" : 13
+	},
+	{
+		"_id" : "Border Security, Facilitation, and Operations",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Select Revenue Measures",
+		"membercount" : 15
+	},
+	{
+		"_id" : "Transportation and Safety",
+		"membercount" : 17
+	},
+	{
+		"_id" : "Clean Air and Nuclear Safety",
+		"membercount" : 19
+	},
+	{
+		"_id" : "Highways and Transit",
+		"membercount" : 51
+	},
+	{
+		"_id" : "Counterterrorism, Counterintelligence, and Counterproliferation",
+		"membercount" : 10
+	},
+	{
+		"_id" : "Communications and Technology",
+		"membercount" : 31
+	},
+	{
+		"_id" : "Defense Intelligence and Warfighter Support",
+		"membercount" : 10
+	},
+	{
+		"_id" : "Biotechnology, Horticulture, and Research",
+		"membercount" : 20
+	},
+	{
+		"_id" : "Readiness and Management Support",
+		"membercount" : 13
+	},
+	{
+		"_id" : "Department of Homeland Security",
+		"membercount" : 13
+	},
+	{
+		"_id" : "Military Construction and Veterans Affairs, and Related Agencies",
+		"membercount" : 17
+	},
+	{
+		"_id" : "Commodity Exchanges, Energy, and Credit",
+		"membercount" : 18
+	},
+	{
+		"_id" : "Transportation and Maritime Security",
+		"membercount" : 12
+	},
+	{
+		"_id" : "Consumer Protection and Commerce",
+		"membercount" : 24
+	},
+	{
+		"_id" : "Water Resources and Environment",
+		"membercount" : 29
+	},
+	{
+		"_id" : "Department of Defense",
+		"membercount" : 19
+	},
+	{
+		"_id" : "Personnel",
+		"membercount" : 9
+	},
+	{
+		"_id" : "National Security, International Development, and Monetary Policy",
+		"membercount" : 19
+	},
+	{
+		"_id" : "Energy and Water Development",
+		"membercount" : 18
+	},
+	{
+		"_id" : "Housing, Transportation, and Community Development",
+		"membercount" : 15
+	},
+	{
+		"_id" : "Emergency Preparedness, Response, and Recovery",
+		"membercount" : 9
+	},
+	{
+		"_id" : "Superfund, Waste Management, and Regulatory Oversight",
+		"membercount" : 9
+	},
+	{
+		"_id" : "Regulatory Affairs and Federal Management",
+		"membercount" : 9
+	},
+	{
+		"_id" : "Africa and Global Health Policy",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Nutrition, Agricultural Research, and Specialty Crops",
+		"membercount" : 13
+	},
+	{
+		"_id" : "Security",
+		"membercount" : 19
+	},
+	{
+		"_id" : "Readiness",
+		"membercount" : 14
+	},
+	{
+		"_id" : "Aviation",
+		"membercount" : 35
+	},
+	{
+		"_id" : "General Farm Commodities and Risk Management",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Indigenous Peoples of the United States",
+		"membercount" : 12
+	},
+	{
+		"_id" : "Civil Rights and Civil Liberties",
+		"membercount" : 14
+	},
+	{
+		"_id" : "Europe and Regional Security Cooperation",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Africa, Global Health, Global Human Rights, and International Organizations",
+		"membercount" : 8
+	},
+	{
+		"_id" : "Technology Modernization",
+		"membercount" : 5
+	},
+	{
+		"_id" : "Elections",
+		"membercount" : 8
+	},
+	{
+		"_id" : "Multilateral International Development, Multilateral Institutions, and International Economic, Energy, and Environmental Policy",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Coast Guard and Maritime Transportation",
+		"membercount" : 13
+	},
+	{
+		"_id" : "Social Security, Pensions, and Family Policy",
+		"membercount" : 10
+	},
+	{
+		"_id" : "Fiscal Responsibility and Economic Growth",
+		"membercount" : 5
+	},
+	{
+		"_id" : "Agriculture, Rural Development, Food and Drug Administration, and Related Agencies",
+		"membercount" : 25
+	},
+	{
+		"_id" : "Crime and Terrorism",
+		"membercount" : 13
+	},
+	{
+		"_id" : "Permanent Subcommittee on Investigations",
+		"membercount" : 10
+	},
+	{
+		"_id" : "Space and Aeronautics",
+		"membercount" : 14
+	},
+	{
+		"_id" : "Science, Oceans, Fisheries, and Weather",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Legislative Branch",
+		"membercount" : 12
+	},
+	{
+		"_id" : "Strategic Technologies and Advanced Research",
+		"membercount" : 8
+	},
+	{
+		"_id" : "Employment and Workplace Safety",
+		"membercount" : 15
+	},
+	{
+		"_id" : "Government Operations",
+		"membercount" : 16
+	},
+	{
+		"_id" : "Cybersecurity",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Public Lands, Forests, and Mining",
+		"membercount" : 18
+	},
+	{
+		"_id" : "Environment and Climate Change",
+		"membercount" : 24
+	},
+	{
+		"_id" : "East Asia, the Pacific, and International Cybersecurity Policy",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Oversight, Agency Action, Federal Rights and Federal Courts",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Diversity and Inclusion",
+		"membercount" : 16
+	},
+	{
+		"_id" : "Department of the Interior, Environment, and Related Agencies",
+		"membercount" : 16
+	},
+	{
+		"_id" : "National Security and International Trade and Finance",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Consumer Protection and Financial Institutions",
+		"membercount" : 22
+	},
+	{
+		"_id" : "Primary Health and Retirement Security",
+		"membercount" : 19
+	},
+	{
+		"_id" : "Financial Institutions and Consumer Protection",
+		"membercount" : 19
+	},
+	{
+		"_id" : "Cybersecurity, Infrastructure Protection, and Innovation",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Strategic Forces",
+		"membercount" : 31
+	},
+	{
+		"_id" : "Taxation and IRS Oversight",
+		"membercount" : 15
+	},
+	{
+		"_id" : "Oversight",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Higher Education and Workforce Investment",
+		"membercount" : 24
+	},
+	{
+		"_id" : "Trade",
+		"membercount" : 17
+	},
+	{
+		"_id" : "Civil Rights and Human Services",
+		"membercount" : 10
+	},
+	{
+		"_id" : "Livestock, Marketing, and Agriculture Security",
+		"membercount" : 13
+	},
+	{
+		"_id" : "Military Personnel",
+		"membercount" : 13
+	},
+	{
+		"_id" : "Military Construction, Veterans Affairs, and Related Agencies",
+		"membercount" : 11
+	},
+	{
+		"_id" : "Intelligence and Emerging Threats and Capabilities",
+		"membercount" : 18
+	},
+	{
+		"_id" : "Fisheries, Water, and Wildlife",
+		"membercount" : 15
+	},
+	{
+		"_id" : "Contracting and Infrastructure",
+		"membercount" : 5
+	},
+	{
+		"_id" : "Rural Development and Energy",
+		"membercount" : 13
+	},
+	{
+		"_id" : "Aviation and Space",
+		"membercount" : 17
+	}
+]

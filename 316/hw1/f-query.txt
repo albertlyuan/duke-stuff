@@ -1,0 +1,18 @@
+\project_{drinker} (
+    frequents
+)
+\diff
+\project_{a.drinker}(
+    \rename_{a:*}(
+        \project_{frequents.drinker, frequents.bar, likes.beer}(
+            frequents \join_{frequents.drinker = likes.drinker} likes
+        )
+    )
+    \diff 
+    \rename_{b:*}(
+        \project_{frequents.drinker, frequents.bar, serves.beer}(
+            frequents \join_{frequents.bar = serves.bar} serves
+        )
+    )
+)
+;

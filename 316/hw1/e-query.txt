@@ -1,0 +1,22 @@
+\project_{l1.drinker,l2.drinker}(
+    \select_{l1.drinker < l2.drinker}(
+        \select_{l1.beer = serves.beer} (
+            \select_{l1.drinker<>l2.drinker}(
+                \rename_{l1:*} likes
+                \join_{l1.beer=l2.beer}
+                \rename_{l2:*} likes
+            )
+            \join_{l1.drinker = f1.drinker and l2.drinker = f2.drinker} (
+                \select_{f1.drinker<>f2.drinker}(
+                    \rename_{f1:*} frequents
+                    \join_{f1.bar=f2.bar}
+                    \rename_{f2:*} frequents
+                )
+                \join_{serves.bar = f1.bar}(
+                    serves
+                )
+            )
+        )
+    )
+);
+

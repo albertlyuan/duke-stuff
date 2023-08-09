@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Product Reviews:</h2>
+<table class='table table-hover table-bordered container'>
+  <thead class="thead-dark">
+	<tr>
+		<th scope="col">User ID</th>
+		<th scope="col">Review Time</th>
+		<th scope="col">Review Content</th>
+		<th scope="col">Review Rating</th>
+		{% if curruserid is defined %}
+		<th scope="col">Edit Review</th>
+		<th scope="col">Delete Review</th>
+		{% else %}
+		<th scope="col">Edit Review</th>
+		<th scope="col">Delete Review</th>
+		{% endif %}
+		<th scope="col">Review Image</th>
+	</tr>
+  </thead>
+  <tbody>
+    {% for review in all_product_reviews %}
+    <tr>
+		<th>{{review.uid}}</th>
+		<th>{{review.review_time}}</th>
+		<th>{{review.review_content}}</th>
+		<th>{{review.review_rating}}</th>
+		{% if curruserid == review.uid %}
+		<th><a href="{{ url_for('review.editreview', product_id = review.pid) }}" type="button" class="btn btn-light">Edit</a></th>
+		<th><a href="{{ url_for('review.deletereview', review_id = review.id) }}" type="button" class="btn btn-light">Delete</a></th>
+		{% else %}
+		<th></th>
+		<th></th>
+		{% endif %}
+		<th>
+			<img src={{review.review_image}} alt="Product Image" width="50rem" height="50rem">
+		</th>
+	</tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

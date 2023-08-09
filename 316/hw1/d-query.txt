@@ -1,0 +1,15 @@
+\project_{name} (
+    drinker
+)
+\diff
+\project_{drinker} (
+    frequents \join_{frequents.bar = a.bar} (
+        \rename_{a:*}(
+            \project_{bar}(
+                \select_{beer<>'Dixie'} (
+                    serves
+                )
+            )
+        )
+    )
+);

@@ -1,0 +1,43 @@
+\project_{a.drinker}
+\select_{a.bar <> b.bar} (
+    \rename_{a:*}(
+        frequents
+        \join_{frequents.bar = bar2}(
+            \rename_{bar2}
+            \project_{bar}(
+                \project_{bar, beer} serves 
+                \diff(
+                    \project_{bar, beer} serves 
+                    \diff
+                    \project_{s1.bar, s1.beer} (
+                        \select_{s1.price < s2.price}(
+                            \rename_{s1:*} serves \join_{s1.beer = s2.beer} \rename_{s2:*} serves
+                        )
+                    )
+                )
+            )
+        )
+    )
+    
+    \join_{a.drinker = b.drinker}(
+        \rename_{b:*}(
+            frequents
+            \join_{frequents.bar = bar2}(
+                \rename_{bar2}
+                \project_{bar}(
+                    \project_{bar, beer} serves 
+                    \diff(
+                        \project_{bar, beer} serves 
+                        \diff
+                        \project_{s1.bar, s1.beer} (
+                            \select_{s1.price < s2.price}(
+                                \rename_{s1:*} serves \join_{s1.beer = s2.beer} \rename_{s2:*} serves
+                            )
+                        )
+                    )
+                )
+            )
+        )
+    )
+)
+;

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>You do not have enough money!</h2>
+<br>
+<h3>Your balance: ${{user.balance}}</h3>
+<h3>Cart price: ${{totalPrice}}</h3>
+<br>
+<h2>Please add more money or buy fewer items.</h2>
+
+<form action="{{url_for('cart.cart', uid=user.id)}}">
+  <input class="btn" type="submit" name="back" value="Back to Cart">
+</form>
+
+{% endblock %}

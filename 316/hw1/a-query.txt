@@ -1,0 +1,5 @@
+\project_{bar} ( 
+  	\select_{beer = 'Dixie'} (
+      		serves
+     	)
+);

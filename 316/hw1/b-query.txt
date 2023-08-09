@@ -1,0 +1,12 @@
+\project_{drinker} ( 
+  	\select_{beer = 'Dixie'} (
+      		likes
+     	)
+)
+\diff
+\project_{drinker} ( 
+    \select_{beer = 'Corona'} (
+      		likes
+     	)
+
+);

@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% if current_user.is_authenticated %}
+<h2>Order ID: {{purchases[0].order_id}}</h2>
+<table class='table table-hover table-bordered container'>
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Product Name</th>
+        <th scope="col">Seller ID</th>
+        <th scope="col">Product Price</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Subtotal</th>
+        <th scope="col">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for pur in purchases%}
+        <tr>
+          <td><a href="{{ url_for('searchproduct.searchbySKU', sku = pur.pid) }}" type="button" class="btn btn-light">{{pur.product_name}}</a></td>
+          <td><a href="{{ url_for('users.user', sellerid = pur.sellerid) }}" type="button" class="btn btn-light">{{pur.sellerid}}</a></td>
+          <td>{{pur.product_price}}</td>
+          <td>{{pur.quantity}}</td>
+          <td>{{pur.total_price}}</td>
+          <td>{{pur.fulfillment_status}}</td>
+      {% endfor %}
+    </tbody>
+  </table>
+  <h4>Total price: ${{totalPrice}}</h4>
+  <h4>Overall purchase status: {{status}}</h4>
+{% else %}
+<p><a href="{{ url_for('users.login') }}">Log in</a> to see your purchases!</p>
+{% endif %}
+{% endblock %}
