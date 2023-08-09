@@ -1,0 +1,2 @@
+isNegative 2 = 0
+isNegative -82 = 1

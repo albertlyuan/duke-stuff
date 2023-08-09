@@ -1,0 +1,2 @@
+Enter an integer a float and a string
+1, 3.750000, hello

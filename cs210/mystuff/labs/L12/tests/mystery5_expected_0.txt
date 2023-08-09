@@ -1,0 +1,2 @@
+Enter the character that will cause count_chars to return the value 3
+Success!

@@ -1,0 +1,2 @@
+rotateRight 0xABCDEF81 8 = 0x81ABCDEF
+rotateRight 0x12345678 24 = 0x34567812

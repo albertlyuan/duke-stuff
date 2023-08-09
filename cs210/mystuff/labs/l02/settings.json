@@ -1,0 +1,27 @@
+{
+  "test_dir": "tests",
+  "mode": "exe",
+  "test_suite_names": ["args1", "args2", "recurse", "file1", "file2", "strings1" ],
+  "non_zero_exit_status_penalty": 0.75,
+  "memory_penalty": 0.5,
+  "test_suites": {
+    "args1": [
+      { "desc": "args1",  "args": ["1", "3.75", "hello"],  "diff": "normal", "infile": "", "outfile": "", "valgrind": false, "points":1 }
+    ],
+    "args2": [
+      { "desc": "args2",  "args": [""],  "diff": "normal", "infile": "input1.txt", "outfile": "", "valgrind": false, "points":1 }
+    ],
+    "recurse": [
+      { "desc": "recurse",  "args": ["6"],  "diff": "normal", "infile": "", "outfile": "", "valgrind": false, "points":1 }
+    ],
+    "file1": [
+      { "desc": "file1",  "args": [""],  "diff": "file", "infile": "", "outfile": "output1.txt",  "valgrind": false, "points":1 }
+    ],
+    "file2": [
+      { "desc": "file2",  "args": [""],  "diff": "normal", "infile": "", "outfile": "", "valgrind": false, "points":1 }
+    ],
+    "strings1": [
+      { "desc": "strings1",  "args": [""],  "diff": "normal", "infile": "string_input.txt", "outfile": "", "valgrind": false, "points":1 }
+    ]
+  }
+}

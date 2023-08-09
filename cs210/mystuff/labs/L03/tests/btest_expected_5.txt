@@ -1,0 +1,2 @@
+addOK 1 7FFFFFFF = 0
+addOK -1 4 = 1

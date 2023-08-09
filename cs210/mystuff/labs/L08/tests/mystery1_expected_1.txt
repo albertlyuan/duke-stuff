@@ -1,0 +1,2 @@
+Enter two integers that cause f2 to return the value 125
+Success!

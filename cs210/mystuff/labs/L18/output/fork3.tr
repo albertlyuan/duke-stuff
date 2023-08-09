@@ -1,0 +1,3 @@
+my_fork: pid 346915 cid = 346916
+my_waitpid: pid 346915 wait for cid 346916
+my_execv: pid 346916 calling execv with args /bin/ls /bin 
